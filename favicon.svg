@@ -1,0 +1,23 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="16" fill="#121212"/>
+  
+  <!-- High Contrast Trend Curve - Thicker and Filling More Space -->
+  <!-- Starts near bottom-left (10, 52) ends near top-right (54, 12) -->
+  <path d="M10 52C26 52 30 24 54 12" stroke="url(#trend_gradient)" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Larger Glowing Tip -->
+  <circle cx="54" cy="12" r="7" fill="#0A84FF" fill-opacity="0.6" filter="url(#glow)"/>
+  <circle cx="54" cy="12" r="4" fill="#FFFFFF"/>
+
+  <defs>
+    <linearGradient id="trend_gradient" x1="10" y1="52" x2="54" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D74B"/>
+      <stop offset="1" stop-color="#0A84FF"/>
+    </linearGradient>
+    <filter id="glow" x="40" y="0" width="28" height="28" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="3" result="effect1_foregroundBlur"/>
+    </filter>
+  </defs>
+</svg>
