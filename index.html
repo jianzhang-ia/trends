@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trend Alert | Industrial Policy Monitor</title>
+    <meta name="description" content="AI-powered monitoring of German industrial policy news and trends">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Floating Background Shapes -->
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="theme-icon sun">
+            <svg class="sf-icon" viewBox="0 0 24 24">
+                <path
+                    d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0-15v2m0 16v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41-1.41M19.07 4.93l-1.41 1.41" />
+            </svg>
+        </span>
+        <span class="theme-icon moon">
+            <svg class="sf-icon" viewBox="0 0 24 24">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+        </span>
+    </button>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="title">Trend Alert</h1>
+            <p class="subtitle">AI-Powered German Industrial Policy Monitor</p>
+        </header>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-card glass-card-static">
+                <span class="stat-icon">
+                    <svg class="sf-icon" viewBox="0 0 24 24">
+                        <path
+                            d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V7m2 13a2 2 0 0 0 2-2V9.5a2.5 2.5 0 0 0-2.5-2.5H15M9 11l.01 0M11 11h4M9 15l.01 0M11 15h4" />
+                    </svg>
+                </span>
+                <div class="stat-content">
+                    <span class="stat-value" id="statScanned">--</span>
+                    <span class="stat-label">News Scanned</span>
+                </div>
+            </div>
+            <div class="stat-card glass-card-static">
+                <span class="stat-icon">
+                    <svg class="sf-icon" viewBox="0 0 24 24">
+                        <path d="M10 3H3v7h7V3Zm11 0h-7v7h7V3Zm0 11h-7v7h7v-7Zm-11 0H3v7h7v-7Z" />
+                    </svg>
+                </span>
+                <div class="stat-content">
+                    <span class="stat-value" id="statTopics">--</span>
+                    <span class="stat-label">Total Policies</span>
+                </div>
+            </div>
+            <div class="stat-card glass-card-static">
+                <span class="stat-icon">
+                    <svg class="sf-icon" viewBox="0 0 24 24">
+                        <path
+                            d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.1.2-2.2.5-3.3.3.9.7 1.8 1.5 2.8z" />
+                    </svg>
+                </span>
+                <div class="stat-content">
+                    <span class="stat-value" id="statTrending">--</span>
+                    <span class="stat-label">Trending</span>
+                </div>
+            </div>
+            <div class="stat-card glass-card-static">
+                <span class="stat-icon">
+                    <svg class="sf-icon" viewBox="0 0 24 24">
+                        <path
+                            d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                    </svg>
+                </span>
+                <div class="stat-content">
+                    <span class="stat-value" id="statNew">--</span>
+                    <span class="stat-label">New Policies</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search -->
+        <div class="search-container">
+            <span class="search-icon">
+                <svg class="sf-icon" viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="m21 21-4.35-4.35" />
+                </svg>
+            </span>
+            <input type="text" class="search-input" id="searchInput"
+                placeholder="Search topics, entities, or policies...">
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+            <div class="filter-pills" id="filterPills">
+                <!-- Generated dynamically from data -->
+            </div>
+            <div class="sort-controls">
+                <button class="sort-btn active" data-sort="trending">
+                    <svg class="sf-icon" viewBox="0 0 24 24" style="width:1em;height:1em;vertical-align:-0.15em">
+                        <path
+                            d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.1.2-2.2.5-3.3.3.9.7 1.8 1.5 2.8z" />
+                    </svg>
+                    Trending
+                </button>
+                <button class="sort-btn" data-sort="recent">
+                    <svg class="sf-icon" viewBox="0 0 24 24" style="width:1em;height:1em;vertical-align:-0.15em">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M12 6v6l4 2" />
+                    </svg>
+                    Recent
+                </button>
+            </div>
+        </div>
+
+        <!-- Topics List -->
+        <div class="topics-list" id="topicsList">
+            <!-- Topic cards will be rendered here -->
+        </div>
+
+        <!-- Empty State -->
+        <div class="empty-state" id="emptyState" style="display: none;">
+            <span class="empty-icon">
+                <svg class="sf-icon" viewBox="0 0 24 24" style="width:48px;height:48px;stroke-width:1.5px">
+                    <path d="M22 12h-4l-3 9L9 12H2" />
+                    <path
+                        d="M12.24 2.815a2 2 0 0 1 3.52 0l1.261 2.555a2 2 0 0 0 1.503 1.09l2.82.41a2 2 0 0 1 1.108 3.41L12 12" />
+                </svg>
+            </span>
+            <p class="empty-text">No policy alerts found matching your filters.</p>
+        </div>
+
+        <!-- Load More -->
+        <div class="load-more-container" id="loadMoreContainer" style="display: none;">
+            <button class="load-more-btn" id="loadMoreBtn">
+                Load More <span id="loadMoreCount"></span>
+            </button>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Last updated: <span id="lastUpdated">--</span></p>
+            <p class="footer-note">Data sourced from German news via EventRegistry • AI analysis by Gemini</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
