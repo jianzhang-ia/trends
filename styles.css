@@ -406,7 +406,7 @@ body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    animation: slideUp 0.8s var(--ease-spring) 0.5s backwards;
+    animation: slideUp 0.8s var(--ease-spring) 0.5s both;
 }
 
 .search-input {
@@ -444,6 +444,7 @@ body {
     color: var(--text-muted);
     pointer-events: none;
     transition: color 0.3s;
+    z-index: 5;
 }
 
 .search-input:focus+.search-icon {
