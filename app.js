@@ -185,8 +185,9 @@ function renderTopics() {
     // Add click handlers for expand
     document.querySelectorAll('.topic-card').forEach(card => {
         card.addEventListener('click', (e) => {
-            // Don't toggle if clicking a link
-            if (e.target.tagName === 'A') return;
+            // Don't toggle if clicking a link or show-more button
+            if (e.target.closest('a')) return;
+            if (e.target.closest('.show-more-btn')) return;
             card.classList.toggle('expanded');
         });
     });
@@ -212,8 +213,9 @@ function renderTopicCard(topic) {
         .map(e => `<span class="entity-tag">${escapeHtml(e)}</span>`)
         .join('');
 
-    const articles = topic.articles.slice(0, 5).map(a => `
-        <div class="article-item">
+    const visibleCount = 5;
+    const articles = topic.articles.map((a, index) => `
+        <div class="article-item ${index >= visibleCount ? 'hidden' : ''}">
             <a href="${escapeHtml(a.url)}" class="article-title" target="_blank" rel="noopener">
                 ${escapeHtml(a.title)}
             </a>
@@ -247,9 +249,11 @@ function renderTopicCard(topic) {
             <div class="topic-articles">
                 <div class="topic-articles-inner">
                     ${articles}
-                    ${topic.articles.length > 5 ? `
-                        <div class="article-item">
-                            <em>+ ${topic.articles.length - 5} more articles</em>
+                    ${topic.articles.length > visibleCount ? `
+                        <div class="show-more-wrapper">
+                            <button class="show-more-btn">
+                                + ${topic.articles.length - visibleCount} more articles
+                            </button>
                         </div>
                     ` : ''}
                 </div>
@@ -301,6 +305,23 @@ function initEventHandlers() {
     loadMoreBtn.addEventListener('click', () => {
         currentPage++;
         renderTopics();
+    });
+
+    // Show more articles button delegate
+    topicsList.addEventListener('click', (e) => {
+        if (e.target.classList.contains('show-more-btn')) {
+            e.stopPropagation(); // prevent card collapse
+            const wrapper = e.target.closest('.show-more-wrapper');
+            const card = wrapper.closest('.topic-card');
+
+            // Show all hidden articles in this card
+            card.querySelectorAll('.article-item.hidden').forEach(el => {
+                el.classList.remove('hidden');
+            });
+
+            // Remove the button
+            wrapper.remove();
+        }
     });
 }
 
