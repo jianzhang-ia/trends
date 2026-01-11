@@ -894,13 +894,13 @@ body {
     opacity: 0;
     transition: opacity 0.3s var(--ease-smooth), padding 0.3s var(--ease-smooth);
     padding-top: 0;
-    border-top: 1px solid transparent;
+    /* border-top: 1px solid transparent; REMOVED overlapping border */
 }
 
 .topic-card.expanded .topic-articles-inner {
     opacity: 1;
-    padding-top: var(--space-lg);
-    border-top-color: var(--glass-border);
+    padding-top: var(--space-md);
+    /* border-top-color: var(--glass-border); */
 }
 
 .article-item {
