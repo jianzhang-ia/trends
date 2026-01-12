@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-01-11T01:31:49.428484",
+  "generated_at": "2026-01-12T13:36:50.636935",
   "stats": {
-    "total_news_items": 9924,
-    "screened_items": 9924,
-    "total_topics": 202,
-    "trending_topics": 4,
-    "new_policies": 202,
-    "latest_news_date": "2026-01-11T00:28:28Z",
+    "total_news_items": 10956,
+    "screened_items": 10956,
+    "total_topics": 222,
+    "trending_topics": 5,
+    "new_policies": 222,
+    "latest_news_date": "2026-01-12T11:52:47Z",
     "by_type": {
-      "Energy": 31,
-      "Regulation": 28,
-      "Trade": 33,
+      "Energy": 39,
+      "Regulation": 29,
+      "Trade": 38,
       "Defense": 4,
-      "R&D": 42,
-      "Infrastructure": 16,
+      "R&D": 43,
+      "Infrastructure": 18,
       "Subsidy": 10,
-      "Other": 17,
-      "Environment": 15,
+      "Other": 19,
+      "Environment": 16,
       "Labor": 4,
       "Taxation": 1,
       "Finance": 1
@@ -33,24 +33,32 @@
       "id": "hydrogen-subsidies",
       "label": "Hydrogen Subsidies",
       "policy_type": "Energy",
-      "article_count": 36,
+      "article_count": 37,
       "is_trending": true,
       "is_new_policy": true,
-      "latest_date": "2026-01-10T16:09:08Z",
+      "latest_date": "2026-01-11T08:59:31Z",
       "avg_relevance": 0.69,
       "key_entities": [
-        "Vulcan Energy",
-        "Plug Power",
-        "Cummins Inc.",
-        "Linde plc",
-        "Chart Industries Inc",
-        "German Federal Ministry for Economic Affairs and Climate Action (BMWK)",
-        "Salzgitter AG",
-        "Chart Industries",
-        "Norwegian Government",
-        "Galp Energia"
+        "Ballard Power",
+        "EU",
+        "Walmart",
+        "Bloom Energy",
+        "Federal Ministry for Economic Affairs and Climate Action (BMWK)",
+        "NASA",
+        "Howden",
+        "Linc Polska",
+        "HOCHTIEF",
+        "Hydrogen Sector"
       ],
       "articles": [
+        {
+          "id": 10438,
+          "title": "Plug Power Faces Persistent Headwinds as Key Shareholder Vote Looms",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/plug-power-faces-persistent-headwinds-as-key-shareholder-vote-looms/68477389",
+          "date": "2026-01-11T08:59:31Z",
+          "summary": "Plug Power's financing and demand are under scrutiny, potentially impacting its ability to benefit from hydrogen subsidies and agreements."
+        },
         {
           "id": 9991,
           "title": "Cummins Inc. bets big on clean power: how a diesel legend is reinventing itself for the zero?carbon",
@@ -202,14 +210,6 @@
           "url": "https://www.ad-hoc-news.de/boerse/ueberblick/chart-industries-hydrogen-darling-or-overstretched-cryogenic-power-play/68464782",
           "date": "2026-01-06T19:49:02Z",
           "summary": "Chart Industries benefits from leverage related to a deal potentially supported by government funding for hydrogen technologies."
-        },
-        {
-          "id": 4970,
-          "title": "The Truth About Chart Industries Inc (GTLS): Silent Stock Turning Into a Clean-Energy Beast?",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/the-truth-about-chart-industries-inc-gtls-silent-stock-turning-into-a/68464712",
-          "date": "2026-01-06T18:54:18Z",
-          "summary": "Chart Industries Inc. benefits from German government subsidies for clean energy technologies, specifically hydrogen infrastructure."
         }
       ]
     },
@@ -223,16 +223,16 @@
       "latest_date": "2026-01-09T13:25:03Z",
       "avg_relevance": 0.68,
       "key_entities": [
-        "Ontario Securities Commission (OSC)",
-        "SNP Schneider-Neureither & Partner SE",
-        "German Securities Act (WpHG)",
         "INDUS Holding AG",
+        "German Securities Act (WpHG)",
+        "BRAIN Biotech AG",
+        "WpHG",
+        "HENSOLDT AG",
+        "Ontario Securities Commission (OSC)",
         "Healwell AI",
         "Henkel AG & Co. KGaA",
         "SAP SE",
-        "BRAIN Biotech AG",
-        "WpHG",
-        "HENSOLDT AG"
+        "SNP Schneider-Neureither & Partner SE"
       ],
       "articles": [
         {
@@ -335,16 +335,16 @@
       "latest_date": "2026-01-07T12:03:09Z",
       "avg_relevance": 0.74,
       "key_entities": [
-        "Voestalpine",
-        "Procter & Gamble",
-        "U.S. Government",
-        "German Copper Industry",
+        "EU",
         "European Commission",
-        "German Companies",
-        "Build-A-Bear Workshop",
-        "Indian Government",
+        "U.S. Government",
         "US Government",
-        "European Union"
+        "Voestalpine",
+        "European Union",
+        "German Companies",
+        "Indian Government",
+        "German Government",
+        "Newell Brands"
       ],
       "articles": [
         {
@@ -423,16 +423,16 @@
       "latest_date": "2026-01-09T11:49:50Z",
       "avg_relevance": 0.67,
       "key_entities": [
-        "iShares",
+        "Consumers Energy",
+        "SolarMax Technology",
         "Puerto Rico Government",
         "Federal Ministry for Economic Affairs and Climate Action (BMWK)",
+        "Clean Energy Companies",
+        "iShares",
         "Bundesnetzagentur",
         "Vestas Wind Systems A/S",
-        "Michigan Government",
-        "Clean Energy Companies",
-        "PNE AG",
-        "SolarMax Technology",
-        "Consumers Energy"
+        "German Government",
+        "PNE AG"
       ],
       "articles": [
         {
@@ -486,6 +486,77 @@
       ]
     },
     {
+      "id": "energy-transition",
+      "label": "Energy Transition",
+      "policy_type": "Energy",
+      "article_count": 6,
+      "is_trending": true,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T01:57:06Z",
+      "avg_relevance": 0.72,
+      "key_entities": [
+        "RWE AG",
+        "Naturgy Energy Group",
+        "Rexel S.A.",
+        "BMWK",
+        "European utilities",
+        "Italian Government",
+        "German Government",
+        "Energy Suppliers",
+        "Eni S.p.A."
+      ],
+      "articles": [
+        {
+          "id": 10494,
+          "title": "Naturgy Energy Group S.A.: How a Legacy Utility Is Rebooting for the Net-Zero Grid",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/naturgy-energy-group-s-a-how-a-legacy-utility-is-rebooting-for-the/68476702",
+          "date": "2026-01-11T01:57:06Z",
+          "summary": "European utilities are facing pressure to decarbonize and digitalize grids while maintaining affordable power, influenced by recent energy crises and regulatory changes."
+        },
+        {
+          "id": 9965,
+          "title": "Stabilus SE stock: Quiet consolidation, selective optimism and a test of investor patience",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/stabilus-se-stock-quiet-consolidation-selective-optimism-and-a-test-of/68475744",
+          "date": "2026-01-10T16:58:39Z",
+          "summary": "RWE AG is shifting its business towards renewable energy, potentially influenced by German energy policy."
+        },
+        {
+          "id": 515,
+          "title": "Platzhalter für Energie-Services: Why Everyone Is Suddenly Talking About NextEra's New Energy Fut",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/platzhalter-fuer-energie-services-why-everyone-is-suddenly-talking-about/68474069",
+          "date": "2026-01-10T01:40:05Z",
+          "summary": "The article discusses rising energy prices and the need for cheaper, cleaner, and more reliable energy, implicitly referencing German government efforts to address these issues."
+        },
+        {
+          "id": 1140,
+          "title": "The Truth About Rexel S.A.: Quiet Stock, Massive Energy Shift - Are You Sleeping On This Play?",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/the-truth-about-rexel-s-a-quiet-stock-massive-energy-shift-are-you/68472738",
+          "date": "2026-01-09T12:59:39Z",
+          "summary": "Rexel S.A. is positioned to benefit from the energy transition, implying government policies supporting renewable energy and infrastructure are driving demand."
+        },
+        {
+          "id": 6825,
+          "title": "Eni S.p.A. (ADR): Quiet Rally Or Calm Before The Storm?",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/eni-s-p-a-adr-quiet-rally-or-calm-before-the-storm/68461145",
+          "date": "2026-01-05T13:49:12Z",
+          "summary": "The Italian government is pushing hard on energy transition policy, impacting Eni's stock performance."
+        },
+        {
+          "id": 6866,
+          "title": "Germany's energy transition put on the back burner in 2025",
+          "source": "The Local",
+          "url": "https://www.thelocal.de/20260105/germanys-energy-transition-put-on-the-back-burner-in-2025",
+          "date": "2026-01-05T13:21:06Z",
+          "summary": "Germany's energy transition is reportedly being slowed down, with renewable energy growth lagging behind the 2030 target of 80%."
+        }
+      ]
+    },
+    {
       "id": "defense-spending",
       "label": "Defense Spending",
       "policy_type": "Defense",
@@ -495,15 +566,15 @@
       "latest_date": "2026-01-08T14:24:50Z",
       "avg_relevance": 0.71,
       "key_entities": [
+        "Destatis",
+        "U.S. Military",
         "Russia",
         "U.S. Government",
-        "Rocket Lab USA",
-        "Rolls-Royce",
-        "Destatis",
-        "German Ministry of Defense",
-        "Kratos",
         "Hensoldt AG",
-        "U.S. Military",
+        "Rolls-Royce",
+        "Rocket Lab USA",
+        "Kratos",
+        "German Government",
         "Bundeswehr"
       ],
       "articles": [
@@ -559,16 +630,16 @@
       "latest_date": "2026-01-09T14:58:32Z",
       "avg_relevance": 0.74,
       "key_entities": [
+        "ReSourceEU",
+        "Africa",
+        "Arafura Rare Earths",
+        "REalloys",
+        "Critical Minerals",
+        "Mission Critical Materials",
         "Brussels",
         "EU",
-        "Member States",
-        "Blackboxstocks",
-        "ReSourceEU",
-        "European Lithium",
-        "US Federal Government",
         "European Union",
-        "Africa",
-        "Critical Minerals"
+        "Member States"
       ],
       "articles": [
         {
@@ -614,67 +685,6 @@
       ]
     },
     {
-      "id": "energy-transition",
-      "label": "Energy Transition",
-      "policy_type": "Energy",
-      "article_count": 5,
-      "is_trending": false,
-      "is_new_policy": true,
-      "latest_date": "2026-01-10T16:58:39Z",
-      "avg_relevance": 0.72,
-      "key_entities": [
-        "Energy Suppliers",
-        "BMWK",
-        "Italian Government",
-        "RWE AG",
-        "Rexel S.A.",
-        "Eni S.p.A.",
-        "German Government"
-      ],
-      "articles": [
-        {
-          "id": 9965,
-          "title": "Stabilus SE stock: Quiet consolidation, selective optimism and a test of investor patience",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/stabilus-se-stock-quiet-consolidation-selective-optimism-and-a-test-of/68475744",
-          "date": "2026-01-10T16:58:39Z",
-          "summary": "RWE AG is shifting its business towards renewable energy, potentially influenced by German energy policy."
-        },
-        {
-          "id": 515,
-          "title": "Platzhalter für Energie-Services: Why Everyone Is Suddenly Talking About NextEra's New Energy Fut",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/platzhalter-fuer-energie-services-why-everyone-is-suddenly-talking-about/68474069",
-          "date": "2026-01-10T01:40:05Z",
-          "summary": "The article discusses rising energy prices and the need for cheaper, cleaner, and more reliable energy, implicitly referencing German government efforts to address these issues."
-        },
-        {
-          "id": 1140,
-          "title": "The Truth About Rexel S.A.: Quiet Stock, Massive Energy Shift - Are You Sleeping On This Play?",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/the-truth-about-rexel-s-a-quiet-stock-massive-energy-shift-are-you/68472738",
-          "date": "2026-01-09T12:59:39Z",
-          "summary": "Rexel S.A. is positioned to benefit from the energy transition, implying government policies supporting renewable energy and infrastructure are driving demand."
-        },
-        {
-          "id": 6825,
-          "title": "Eni S.p.A. (ADR): Quiet Rally Or Calm Before The Storm?",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/eni-s-p-a-adr-quiet-rally-or-calm-before-the-storm/68461145",
-          "date": "2026-01-05T13:49:12Z",
-          "summary": "The Italian government is pushing hard on energy transition policy, impacting Eni's stock performance."
-        },
-        {
-          "id": 6866,
-          "title": "Germany's energy transition put on the back burner in 2025",
-          "source": "The Local",
-          "url": "https://www.thelocal.de/20260105/germanys-energy-transition-put-on-the-back-burner-in-2025",
-          "date": "2026-01-05T13:21:06Z",
-          "summary": "Germany's energy transition is reportedly being slowed down, with renewable energy growth lagging behind the 2030 target of 80%."
-        }
-      ]
-    },
-    {
       "id": "ipcei-microelectronics",
       "label": "IPCEI Microelectronics",
       "policy_type": "R&D",
@@ -684,12 +694,12 @@
       "latest_date": "2026-01-08T18:56:02Z",
       "avg_relevance": 0.7,
       "key_entities": [
+        "Federal Government",
         "Intel",
-        "BMWi",
-        "Federal Ministry for Economic Affairs and Climate Action (BMWK)",
         "European Commission",
         "Nvidia",
-        "Federal Government",
+        "Federal Ministry for Economic Affairs and Climate Action (BMWK)",
+        "BMWi",
         "AIXTRON SE"
       ],
       "articles": [
@@ -737,12 +747,12 @@
       "latest_date": "2026-01-09T18:29:23Z",
       "avg_relevance": 0.67,
       "key_entities": [
-        "HOCHTIEF Aktiengesellschaft",
-        "German Securities Act (WpHG)",
         "INDUS Holding AG",
+        "German Securities Act (WpHG)",
+        "HOCHTIEF Aktiengesellschaft",
+        "Fresenius Medical Care AG",
         "WpHG",
-        "Daimler Truck Holding AG",
-        "Fresenius Medical Care AG"
+        "Daimler Truck Holding AG"
       ],
       "articles": [
         {
@@ -792,10 +802,10 @@
         "Federal Grid Agency",
         "BMWK",
         "Nokia Oyj",
-        "Federal Ministry for Digital and Transport (BMDV)",
         "Federal Network Agency",
         "PPL Corporation",
-        "German Government"
+        "German Government",
+        "Federal Ministry for Digital and Transport (BMDV)"
       ],
       "articles": [
         {
@@ -833,6 +843,116 @@
       ]
     },
     {
+      "id": "grid-modernization",
+      "label": "Grid Modernization",
+      "policy_type": "Energy",
+      "article_count": 4,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T09:09:12Z",
+      "avg_relevance": 0.67,
+      "key_entities": [
+        "CMS Energy",
+        "Public Service Enterprise Group",
+        "New Jersey regulators",
+        "Pinnacle West Capital",
+        "Alliant Energy Corp.",
+        "PSE&G",
+        "German Government",
+        "German Federal Government"
+      ],
+      "articles": [
+        {
+          "id": 10433,
+          "title": "Alliant Energy Corp.: How a Midwestern Utility Is Quietly Rebuilding the Future Grid",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/alliant-energy-corp-how-a-midwestern-utility-is-quietly-rebuilding-the/68477383",
+          "date": "2026-01-11T09:09:12Z",
+          "summary": "Alliant Energy is investing in grid modernization and renewables, potentially influenced by US Inflation Reduction Act and related energy policies impacting supply chains."
+        },
+        {
+          "id": 1236,
+          "title": "Public Service Ent.: How PSEG's Grid Modernization Play Becomes a Product in Its Own Right",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/public-service-ent-how-pseg-s-grid-modernization-play-becomes-a/68472485",
+          "date": "2026-01-09T11:37:27Z",
+          "summary": "Public Service Enterprise Group is modernizing its grid with investments overseen by New Jersey regulators, potentially becoming a model for other utilities."
+        },
+        {
+          "id": 5050,
+          "title": "CMS Energy: How a Midwestern Utility Is Quietly Building a Next-Gen Energy Platform",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/cms-energy-how-a-midwestern-utility-is-quietly-building-a-next-gen-energy/68464537",
+          "date": "2026-01-06T17:42:03Z",
+          "summary": "CMS Energy is investing in grid modernization and renewables, potentially aligning with German energy transition policies."
+        },
+        {
+          "id": 6027,
+          "title": "Pinnacle West Capital: How a Quiet Utility Is Rebuilding the Grid for an Electrified Future",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/pinnacle-west-capital-how-a-quiet-utility-is-rebuilding-the-grid-for-an/68462466",
+          "date": "2026-01-06T01:34:41Z",
+          "summary": "Discussion of grid infrastructure investment needed to support electrification, potentially relevant to German energy policy and grid upgrades."
+        }
+      ]
+    },
+    {
+      "id": "rare-earths-supply-chain",
+      "label": "Rare Earths Supply Chain",
+      "policy_type": "Trade",
+      "article_count": 4,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T13:03:51Z",
+      "avg_relevance": 0.69,
+      "key_entities": [
+        "MP Materials",
+        "Japan",
+        "Arafura Resources",
+        "Western Producers",
+        "Lynas Rare Earths",
+        "US Government",
+        "Lynas",
+        "Australian Government",
+        "China",
+        "German Industry"
+      ],
+      "articles": [
+        {
+          "id": 10396,
+          "title": "Geopolitical Tensions Fuel Rare Earths Rally, Spotlight on Lynas",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/geopolitical-tensions-fuel-rare-earths-rally-spotlight-on-lynas/68477872",
+          "date": "2026-01-11T13:03:51Z",
+          "summary": "Geopolitical tensions impacting rare earth supply chains, potentially affecting German industries reliant on these materials."
+        },
+        {
+          "id": 2805,
+          "title": "Geopolitical Strategy Fuels Investor Interest in MP Materials",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/geopolitical-strategy-fuels-investor-interest-in-mp-materials/68468918",
+          "date": "2026-01-08T05:33:50Z",
+          "summary": "US government statements regarding securing rare earth element access are boosting Western rare earth producers like MP Materials, potentially impacting German industry reliant on these materials."
+        },
+        {
+          "id": 3622,
+          "title": "Geopolitical Tensions Fuel Investor Interest in Rare Earths Developer Arafura",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/geopolitical-tensions-fuel-investor-interest-in-rare-earths-developer/68467441",
+          "date": "2026-01-07T15:48:18Z",
+          "summary": "Geopolitical tensions and trade restrictions are refocusing attention on diversifying rare earths supply chains, potentially benefiting companies outside of China."
+        },
+        {
+          "id": 4417,
+          "title": "Lynas Shares Rally on Geopolitical Tensions and Price Stabilization Hopes",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/lynas-shares-rally-on-geopolitical-tensions-and-price-stabilization-hopes/68465967",
+          "date": "2026-01-07T06:15:55Z",
+          "summary": "Lynas shares rally due to geopolitical tensions and hopes for price stabilization, potentially influenced by government policies regarding rare earth supply chains."
+        }
+      ]
+    },
+    {
       "id": "lithium-funding",
       "label": "Lithium Funding",
       "policy_type": "R&D",
@@ -842,12 +962,12 @@
       "latest_date": "2026-01-06T17:03:04Z",
       "avg_relevance": 0.75,
       "key_entities": [
-        "Rock Tech Lithium",
-        "Vulcan Energy",
-        "European Union",
         "HOCHTIEF",
-        "Canadian Government",
         "Vulcan Energy Resources",
+        "European Union",
+        "Rock Tech Lithium",
+        "Canadian Government",
+        "Vulcan Energy",
         "German Government"
       ],
       "articles": [
@@ -888,9 +1008,9 @@
       "avg_relevance": 0.83,
       "key_entities": [
         "KfW",
-        "Vulcan Energy",
         "Rock Tech Lithium",
         "Canadian Government",
+        "Vulcan Energy",
         "German Government"
       ],
       "articles": [
@@ -931,8 +1051,8 @@
       "avg_relevance": 0.6,
       "key_entities": [
         "Duagon",
-        "Knorr-Bremse",
         "German Government",
+        "Knorr-Bremse",
         "Norma Group"
       ],
       "articles": [
@@ -963,97 +1083,6 @@
       ]
     },
     {
-      "id": "rare-earths-supply-chain",
-      "label": "Rare Earths Supply Chain",
-      "policy_type": "Trade",
-      "article_count": 3,
-      "is_trending": false,
-      "is_new_policy": true,
-      "latest_date": "2026-01-08T05:33:50Z",
-      "avg_relevance": 0.68,
-      "key_entities": [
-        "China",
-        "Lynas",
-        "Arafura Resources",
-        "US Government",
-        "Australian Government",
-        "Western Producers",
-        "Japan",
-        "MP Materials"
-      ],
-      "articles": [
-        {
-          "id": 2805,
-          "title": "Geopolitical Strategy Fuels Investor Interest in MP Materials",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/geopolitical-strategy-fuels-investor-interest-in-mp-materials/68468918",
-          "date": "2026-01-08T05:33:50Z",
-          "summary": "US government statements regarding securing rare earth element access are boosting Western rare earth producers like MP Materials, potentially impacting German industry reliant on these materials."
-        },
-        {
-          "id": 3622,
-          "title": "Geopolitical Tensions Fuel Investor Interest in Rare Earths Developer Arafura",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/geopolitical-tensions-fuel-investor-interest-in-rare-earths-developer/68467441",
-          "date": "2026-01-07T15:48:18Z",
-          "summary": "Geopolitical tensions and trade restrictions are refocusing attention on diversifying rare earths supply chains, potentially benefiting companies outside of China."
-        },
-        {
-          "id": 4417,
-          "title": "Lynas Shares Rally on Geopolitical Tensions and Price Stabilization Hopes",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/lynas-shares-rally-on-geopolitical-tensions-and-price-stabilization-hopes/68465967",
-          "date": "2026-01-07T06:15:55Z",
-          "summary": "Lynas shares rally due to geopolitical tensions and hopes for price stabilization, potentially influenced by government policies regarding rare earth supply chains."
-        }
-      ]
-    },
-    {
-      "id": "grid-modernization",
-      "label": "Grid Modernization",
-      "policy_type": "Energy",
-      "article_count": 3,
-      "is_trending": false,
-      "is_new_policy": true,
-      "latest_date": "2026-01-09T11:37:27Z",
-      "avg_relevance": 0.7,
-      "key_entities": [
-        "Pinnacle West Capital",
-        "German Federal Government",
-        "New Jersey regulators",
-        "Public Service Enterprise Group",
-        "CMS Energy",
-        "PSE&G",
-        "German Government"
-      ],
-      "articles": [
-        {
-          "id": 1236,
-          "title": "Public Service Ent.: How PSEG's Grid Modernization Play Becomes a Product in Its Own Right",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/public-service-ent-how-pseg-s-grid-modernization-play-becomes-a/68472485",
-          "date": "2026-01-09T11:37:27Z",
-          "summary": "Public Service Enterprise Group is modernizing its grid with investments overseen by New Jersey regulators, potentially becoming a model for other utilities."
-        },
-        {
-          "id": 5050,
-          "title": "CMS Energy: How a Midwestern Utility Is Quietly Building a Next-Gen Energy Platform",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/cms-energy-how-a-midwestern-utility-is-quietly-building-a-next-gen-energy/68464537",
-          "date": "2026-01-06T17:42:03Z",
-          "summary": "CMS Energy is investing in grid modernization and renewables, potentially aligning with German energy transition policies."
-        },
-        {
-          "id": 6027,
-          "title": "Pinnacle West Capital: How a Quiet Utility Is Rebuilding the Grid for an Electrified Future",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/pinnacle-west-capital-how-a-quiet-utility-is-rebuilding-the-grid-for-an/68462466",
-          "date": "2026-01-06T01:34:41Z",
-          "summary": "Discussion of grid infrastructure investment needed to support electrification, potentially relevant to German energy policy and grid upgrades."
-        }
-      ]
-    },
-    {
       "id": "mercosur-trade-deal",
       "label": "Mercosur Trade Deal",
       "policy_type": "Trade",
@@ -1063,16 +1092,16 @@
       "latest_date": "2026-01-09T13:45:08Z",
       "avg_relevance": 0.77,
       "key_entities": [
-        "European Union",
-        "Brazil",
-        "Ursula von der Leyen",
-        "Argentina",
-        "Paraguay",
-        "Uruguay",
-        "Emmanuel Macron",
         "France",
+        "EU",
+        "Ursula von der Leyen",
+        "European Union",
         "South American countries",
-        "EU"
+        "Uruguay",
+        "Paraguay",
+        "Argentina",
+        "Emmanuel Macron",
+        "Brazil"
       ],
       "articles": [
         {
@@ -1111,11 +1140,11 @@
       "latest_date": "2026-01-09T14:58:53Z",
       "avg_relevance": 0.73,
       "key_entities": [
-        "Robert Klein",
-        "Stanford University",
-        "Voltalia",
-        "Mark Jacobson",
         "BSW-Solar",
+        "Robert Klein",
+        "Mark Jacobson",
+        "Voltalia",
+        "Stanford University",
         "German Government"
       ],
       "articles": [
@@ -1155,9 +1184,9 @@
       "latest_date": "2026-01-09T15:29:12Z",
       "avg_relevance": 0.63,
       "key_entities": [
-        "BMWi",
-        "Federal Ministry for Economic Affairs and Climate Action (BMWK)",
         "German Research Foundation",
+        "Federal Ministry for Economic Affairs and Climate Action (BMWK)",
+        "BMWi",
         "Federal Ministry of Education and Research (BMBF)",
         "German battery consortium"
       ],
@@ -1198,12 +1227,12 @@
       "latest_date": "2026-01-09T16:37:41Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Energy Transition Minerals Ltd",
         "Vara Mada project",
+        "MP Materials",
+        "Energy Transition Minerals Ltd",
         "Energy Fuels",
         "Federal Ministry for Economic Affairs and Climate Action",
-        "Government Funding",
-        "MP Materials"
+        "Government Funding"
       ],
       "articles": [
         {
@@ -1242,12 +1271,12 @@
       "latest_date": "2026-01-10T04:04:39Z",
       "avg_relevance": 0.67,
       "key_entities": [
-        "Pyrum",
-        "EU Regulations",
-        "Governments",
-        "European Union",
         "LyondellBasell",
-        "UNITANK"
+        "Pyrum",
+        "UNITANK",
+        "EU Regulations",
+        "European Union",
+        "Governments"
       ],
       "articles": [
         {
@@ -1286,11 +1315,11 @@
       "latest_date": "2026-01-10T21:39:53Z",
       "avg_relevance": 0.63,
       "key_entities": [
-        "Nebraska Government",
-        "Apex Critical Metals",
         "Pinal County Air Quality Division",
+        "Arizona Sonoran Copper Company Inc.",
+        "Apex Critical Metals",
         "Nebraska State Government",
-        "Arizona Sonoran Copper Company Inc."
+        "Nebraska Government"
       ],
       "articles": [
         {
@@ -1332,8 +1361,8 @@
         "Sweco AB",
         "Ferrovial SE",
         "CRH",
-        "European Cities",
-        "German Government"
+        "German Government",
+        "European Cities"
       ],
       "articles": [
         {
@@ -1363,6 +1392,52 @@
       ]
     },
     {
+      "id": "critical-minerals-funding",
+      "label": "Critical Minerals Funding",
+      "policy_type": "R&D",
+      "article_count": 3,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-12T11:16:38Z",
+      "avg_relevance": 0.73,
+      "key_entities": [
+        "MP Materials",
+        "EU",
+        "Lynas Rare Earths",
+        "US Government",
+        "U.S. Department of Defense",
+        "German Government",
+        "NioCorp",
+        "Elk Creek Project"
+      ],
+      "articles": [
+        {
+          "id": 10055,
+          "title": "Comstock Metals Expands Network - Launches End-of-Life Solar Facility in California",
+          "source": "wallstreet:online",
+          "url": "https://www.wallstreet-online.de/nachricht/20359479-comstock-metals-expands-network-launches-end-of-life-solar-facility-california",
+          "date": "2026-01-12T11:16:38Z",
+          "summary": "The U.S. Department of Defense awarded up to $10 million to support the Elk Creek Critical Minerals Project, potentially impacting German supply chains."
+        },
+        {
+          "id": 3625,
+          "title": "MP Materials Charts Ambitious Growth Path with Major Texas Facility",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/mp-materials-charts-ambitious-growth-path-with-major-texas-facility/68467355",
+          "date": "2026-01-07T15:47:24Z",
+          "summary": "MP Materials is expanding its manufacturing in Texas with significant government backing, indicating policy support for domestic critical mineral production."
+        },
+        {
+          "id": 5674,
+          "title": "Lynas Shares Surge as Rare Earth Sector Gains Momentum",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/lynas-shares-surge-as-rare-earth-sector-gains-momentum/68463501",
+          "date": "2026-01-06T09:40:03Z",
+          "summary": "Geopolitical discussions and potential government funding are focused on securing critical mineral supply chains, benefiting companies like Lynas Rare Earths and impacting German industries reliant on these minerals."
+        }
+      ]
+    },
+    {
       "id": "industriestrompreis",
       "label": "Industriestrompreis",
       "policy_type": "Energy",
@@ -1372,10 +1447,10 @@
       "latest_date": "2026-01-04T01:15:56Z",
       "avg_relevance": 0.68,
       "key_entities": [
-        "German government",
-        "Aurubis AG",
         "BMWK",
         "GEA Group",
+        "Aurubis AG",
+        "German government",
         "German Government"
       ],
       "articles": [
@@ -1408,8 +1483,8 @@
       "avg_relevance": 0.65,
       "key_entities": [
         "Forschungszentrum Jülich",
-        "D-Wave Quantum Inc.",
-        "Federal Ministry of Education and Research (BMBF)"
+        "Federal Ministry of Education and Research (BMBF)",
+        "D-Wave Quantum Inc."
       ],
       "articles": [
         {
@@ -1440,9 +1515,9 @@
       "latest_date": "2026-01-05T11:21:54Z",
       "avg_relevance": 0.6,
       "key_entities": [
+        "Max Planck Society",
         "BMWi",
-        "Fritz Haber Institute",
-        "Max Planck Society"
+        "Fritz Haber Institute"
       ],
       "articles": [
         {
@@ -1473,10 +1548,10 @@
       "latest_date": "2026-01-06T14:46:08Z",
       "avg_relevance": 0.6,
       "key_entities": [
+        "Destatis",
         "EU",
         "Federal Government",
-        "German Government",
-        "Destatis"
+        "German Government"
       ],
       "articles": [
         {
@@ -1507,8 +1582,8 @@
       "latest_date": "2026-01-07T01:47:51Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Sunrise Wind LLC",
         "U.S. Department of the Interior",
+        "Sunrise Wind LLC",
         "Ørsted"
       ],
       "articles": [
@@ -1540,9 +1615,9 @@
       "latest_date": "2026-01-07T11:50:26Z",
       "avg_relevance": 0.7,
       "key_entities": [
+        "Federal Government",
         "IfM Bonn",
-        "German Companies",
-        "Federal Government"
+        "German Companies"
       ],
       "articles": [
         {
@@ -1573,10 +1648,10 @@
       "latest_date": "2026-01-07T13:06:11Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "BizClik",
-        "Diginex Limited",
+        "PlanA.earth GmbH",
         "SGS",
-        "PlanA.earth GmbH"
+        "Diginex Limited",
+        "BizClik"
       ],
       "articles": [
         {
@@ -1598,41 +1673,6 @@
       ]
     },
     {
-      "id": "critical-minerals-funding",
-      "label": "Critical Minerals Funding",
-      "policy_type": "R&D",
-      "article_count": 2,
-      "is_trending": false,
-      "is_new_policy": true,
-      "latest_date": "2026-01-07T15:47:24Z",
-      "avg_relevance": 0.7,
-      "key_entities": [
-        "US Government",
-        "Lynas Rare Earths",
-        "German Government",
-        "EU",
-        "MP Materials"
-      ],
-      "articles": [
-        {
-          "id": 3625,
-          "title": "MP Materials Charts Ambitious Growth Path with Major Texas Facility",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/mp-materials-charts-ambitious-growth-path-with-major-texas-facility/68467355",
-          "date": "2026-01-07T15:47:24Z",
-          "summary": "MP Materials is expanding its manufacturing in Texas with significant government backing, indicating policy support for domestic critical mineral production."
-        },
-        {
-          "id": 5674,
-          "title": "Lynas Shares Surge as Rare Earth Sector Gains Momentum",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/lynas-shares-surge-as-rare-earth-sector-gains-momentum/68463501",
-          "date": "2026-01-06T09:40:03Z",
-          "summary": "Geopolitical discussions and potential government funding are focused on securing critical mineral supply chains, benefiting companies like Lynas Rare Earths and impacting German industries reliant on these minerals."
-        }
-      ]
-    },
-    {
       "id": "energy-grid-resilience",
       "label": "Energy Grid Resilience",
       "policy_type": "Infrastructure",
@@ -1642,11 +1682,11 @@
       "latest_date": "2026-01-07T15:55:58Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Berlin City Officials",
-        "German Energy Agency (DENA)",
+        "energy suppliers",
         "Berlin Senate",
+        "German Energy Agency (DENA)",
         "affected businesses",
-        "energy suppliers"
+        "Berlin City Officials"
       ],
       "articles": [
         {
@@ -1710,11 +1750,11 @@
       "latest_date": "2026-01-08T05:14:10Z",
       "avg_relevance": 0.75,
       "key_entities": [
-        "Austrian Government",
         "Norwegian Government",
         "OMV",
         "Aker Solutions ASA",
-        "German Government"
+        "German Government",
+        "Austrian Government"
       ],
       "articles": [
         {
@@ -1745,9 +1785,9 @@
       "latest_date": "2026-01-08T06:12:58Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Swiss Federal Railways (SBB)",
+        "Marti",
         "Implenia",
-        "Marti"
+        "Swiss Federal Railways (SBB)"
       ],
       "articles": [
         {
@@ -1778,11 +1818,11 @@
       "latest_date": "2026-01-08T08:11:58Z",
       "avg_relevance": 0.68,
       "key_entities": [
-        "Pfizer",
+        "BioNTech",
+        "German Courts",
         "Bayer",
         "Moderna",
-        "BioNTech",
-        "German Courts"
+        "Pfizer"
       ],
       "articles": [
         {
@@ -1813,11 +1853,11 @@
       "latest_date": "2026-01-08T14:02:41Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Amcor plc",
-        "German regulators",
-        "European Union",
         "Huhtamäki Oyj",
-        "EU"
+        "German regulators",
+        "EU",
+        "European Union",
+        "Amcor plc"
       ],
       "articles": [
         {
@@ -1848,11 +1888,11 @@
       "latest_date": "2026-01-08T21:16:07Z",
       "avg_relevance": 0.72,
       "key_entities": [
-        "China",
+        "Nvidia",
         "US Government",
         "AXT, Inc.",
-        "Nvidia",
-        "BAFA"
+        "BAFA",
+        "China"
       ],
       "articles": [
         {
@@ -1884,10 +1924,10 @@
       "avg_relevance": 0.75,
       "key_entities": [
         "Nevada government",
-        "Nevada State Government",
-        "Comstock Metals LLC",
         "Comstock Inc.",
-        "Comstock Metals"
+        "Comstock Metals LLC",
+        "Comstock Metals",
+        "Nevada State Government"
       ],
       "articles": [
         {
@@ -1919,9 +1959,9 @@
       "avg_relevance": 0.72,
       "key_entities": [
         "Hims & Hers",
-        "Federal Institute for Drugs and Medical Devices (BfArM)",
+        "European Medicines Agency",
         "Bayer",
-        "European Medicines Agency"
+        "Federal Institute for Drugs and Medical Devices (BfArM)"
       ],
       "articles": [
         {
@@ -1985,9 +2025,9 @@
       "latest_date": "2026-01-09T15:07:42Z",
       "avg_relevance": 0.82,
       "key_entities": [
+        "Micron Technology",
         "Intel",
         "US Government",
-        "Micron Technology",
         "New York State",
         "German Government"
       ],
@@ -2020,10 +2060,10 @@
       "latest_date": "2026-01-09T16:09:32Z",
       "avg_relevance": 0.8,
       "key_entities": [
-        "German Industry",
         "Japan",
-        "Lynas Rare Earths Ltd.",
-        "China"
+        "China",
+        "German Industry",
+        "Lynas Rare Earths Ltd."
       ],
       "articles": [
         {
@@ -2089,9 +2129,9 @@
       "key_entities": [
         "Intel",
         "Wolfspeed",
+        "German Government",
         "AIXTRON SE",
-        "TSMC",
-        "German Government"
+        "TSMC"
       ],
       "articles": [
         {
@@ -2122,9 +2162,9 @@
       "latest_date": "2026-01-10T20:40:09Z",
       "avg_relevance": 0.75,
       "key_entities": [
+        "German Government",
         "CATL",
-        "BMWi",
-        "German Government"
+        "BMWi"
       ],
       "articles": [
         {
@@ -2142,6 +2182,144 @@
           "url": "https://www.wallstreet-online.de/nachricht/20356857-eqs-news-catl-opens-middle-east-s-largest-new-energy-aftermarket-facility-riyadh",
           "date": "2026-01-10T20:31:47Z",
           "summary": "CATL opens its largest new energy aftermarket facility in Riyadh, potentially supported by German government R&D initiatives in battery technology."
+        }
+      ]
+    },
+    {
+      "id": "net-zero-transition",
+      "label": "Net-Zero Transition",
+      "policy_type": "Environment",
+      "article_count": 2,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T12:42:37Z",
+      "avg_relevance": 0.7,
+      "key_entities": [
+        "EU Green Deal",
+        "Spirax-Sarco Engineering plc",
+        "German Government",
+        "BASF SE",
+        "German Industry"
+      ],
+      "articles": [
+        {
+          "id": 10408,
+          "title": "Spirax-Sarco Engineering plc: The Quiet Industrial Platform Powering the Net-Zero Transition",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/spirax-sarco-engineering-plc-the-quiet-industrial-platform-powering-the/68477863",
+          "date": "2026-01-11T12:42:37Z",
+          "summary": "Company positioned to benefit from the net-zero transition, potentially through government incentives and regulations."
+        },
+        {
+          "id": 10014,
+          "title": "BASF SE: Can the World's Largest Chemical Player Reinvent Itself for the Net?Zero Age?",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/basf-se-can-the-world-s-largest-chemical-player-reinvent-itself-for-the/68475579",
+          "date": "2026-01-10T15:39:33Z",
+          "summary": "BASF is undergoing a transformation to become a data-driven, low-carbon materials platform, aligning with net-zero goals and potentially influenced by German government policies."
+        }
+      ]
+    },
+    {
+      "id": "semiconductor-subsidies",
+      "label": "Semiconductor Subsidies",
+      "policy_type": "R&D",
+      "article_count": 2,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T12:47:41Z",
+      "avg_relevance": 0.75,
+      "key_entities": [
+        "Intel",
+        "EU",
+        "New York State Government",
+        "German Government",
+        "Micron"
+      ],
+      "articles": [
+        {
+          "id": 10403,
+          "title": "Intel Shares Surge on Political Endorsement and Manufacturing Breakthrough",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/intel-shares-surge-on-political-endorsement-and-manufacturing-breakthrough/68477901",
+          "date": "2026-01-11T12:47:41Z",
+          "summary": "Intel receives political endorsement and makes manufacturing breakthroughs, potentially linked to government subsidies for semiconductor production."
+        },
+        {
+          "id": 3743,
+          "title": "Micron Announces Groundbreaking for Historic New York Megafab",
+          "source": "wallstreet:online",
+          "url": "https://www.wallstreet-online.de/nachricht/20344950-micron-announces-groundbreaking-for-historic-new-york-megafab",
+          "date": "2026-01-07T14:14:05Z",
+          "summary": "Micron is building a new megafab in New York state with significant private investment, potentially supported by government incentives for semiconductor manufacturing."
+        }
+      ]
+    },
+    {
+      "id": "ev-incentives",
+      "label": "EV Incentives",
+      "policy_type": "Subsidy",
+      "article_count": 2,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T18:04:44Z",
+      "avg_relevance": 0.65,
+      "key_entities": [
+        "German Government",
+        "BMWi",
+        "Volkswagen",
+        "Automotive Industry"
+      ],
+      "articles": [
+        {
+          "id": 10333,
+          "title": "VW ID.5 Review: The Electric SUV-Coupé That Finally Makes Going EV Feel Desirable",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/vw-id-5-review-the-electric-suv-coupe-that-finally-makes-going-ev-feel/68478498",
+          "date": "2026-01-11T18:04:44Z",
+          "summary": "VW ID.5 is presented as a desirable EV, potentially benefiting from German EV incentives."
+        },
+        {
+          "id": 5155,
+          "title": "Market Research Intellect",
+          "source": "wallstreet:online",
+          "url": "https://www.wallstreet-online.de/nachricht/20340255-electric-classic-market-set-for-rapid-expansion-projected-to-surge-from-usd-2-6-billion-2024-to-usd-12-4-billion-by-2033-at-a-robust-20-3-cagr-market-research-intellect",
+          "date": "2026-01-06T15:59:34Z",
+          "summary": "The article mentions government incentives for electric vehicles, which are a key part of German industrial policy to promote the transition to electric mobility."
+        }
+      ]
+    },
+    {
+      "id": "green-hydrogen",
+      "label": "Green Hydrogen",
+      "policy_type": "Energy",
+      "article_count": 2,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-12T07:09:16Z",
+      "avg_relevance": 0.7,
+      "key_entities": [
+        "Mecklenburg-Vorpommern",
+        "East Energy",
+        "H2APEX",
+        "Hanseatic H2"
+      ],
+      "articles": [
+        {
+          "id": 10145,
+          "title": "H2APEX and East Energy Plan Joint Venture \"Hanseatic H2\" for Decentralized Green Hydrogen Projects",
+          "source": "wallstreet:online",
+          "url": "https://www.wallstreet-online.de/nachricht/20358261-eqs-news-h2apex-and-east-energy-plan-joint-venture-hanseatic-h2-for-decentralized-green-hydrogen-projects",
+          "date": "2026-01-12T07:09:16Z",
+          "summary": "H2APEX and East Energy are forming a joint venture to develop decentralized green hydrogen projects in Northern and Eastern Germany."
+        },
+        {
+          "id": 10153,
+          "title": "H2APEX Group SCA / LU0472835155",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/corporate-news/h2apex-group-sca-lu0472835155/68479788",
+          "date": "2026-01-12T07:08:37Z",
+          "summary": "H2APEX and East Energy are forming a joint venture named \"Hanseatic H2\" for decentralized green hydrogen projects."
         }
       ]
     },
@@ -2180,9 +2358,9 @@
       "latest_date": "2026-01-03T08:15:47Z",
       "avg_relevance": 0.7,
       "key_entities": [
+        "German Government",
         "BMWi",
-        "Daimler Truck",
-        "German Government"
+        "Daimler Truck"
       ],
       "articles": [
         {
@@ -2205,8 +2383,8 @@
       "latest_date": "2026-01-03T12:58:33Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Disruptive Technologies Innovation Fund",
-        "Irish Government"
+        "Irish Government",
+        "Disruptive Technologies Innovation Fund"
       ],
       "articles": [
         {
@@ -2230,8 +2408,8 @@
       "avg_relevance": 0.5,
       "key_entities": [
         "German Grid Operators",
-        "Neoen S.A.",
-        "Federal Ministry for Economic Affairs and Climate Action"
+        "Federal Ministry for Economic Affairs and Climate Action",
+        "Neoen S.A."
       ],
       "articles": [
         {
@@ -2279,9 +2457,9 @@
       "latest_date": "2026-01-03T13:13:17Z",
       "avg_relevance": 0.7,
       "key_entities": [
+        "German Government",
         "EU",
-        "SSAB AB",
-        "German Government"
+        "SSAB AB"
       ],
       "articles": [
         {
@@ -2304,8 +2482,8 @@
       "latest_date": "2026-01-03T13:29:55Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "Fraunhofer Society",
-        "Federal Ministry of Education and Research (BMBF)"
+        "Federal Ministry of Education and Research (BMBF)",
+        "Fraunhofer Society"
       ],
       "articles": [
         {
@@ -2328,8 +2506,8 @@
       "latest_date": "2026-01-03T15:16:35Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Siemens Energy AG",
-        "German Government"
+        "German Government",
+        "Siemens Energy AG"
       ],
       "articles": [
         {
@@ -2352,8 +2530,8 @@
       "latest_date": "2026-01-03T19:10:19Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "US Government",
-        "L3Harris Technologies"
+        "L3Harris Technologies",
+        "US Government"
       ],
       "articles": [
         {
@@ -2400,9 +2578,9 @@
       "latest_date": "2026-01-03T19:52:42Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "KfW",
+        "German Government",
         "Altus Power",
-        "German Government"
+        "KfW"
       ],
       "articles": [
         {
@@ -2425,8 +2603,8 @@
       "latest_date": "2026-01-03T21:57:12Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "CAAC (Civil Aviation Administration of China)",
-        "EHang"
+        "EHang",
+        "CAAC (Civil Aviation Administration of China)"
       ],
       "articles": [
         {
@@ -2449,9 +2627,9 @@
       "latest_date": "2026-01-03T22:16:40Z",
       "avg_relevance": 0.7,
       "key_entities": [
+        "Pershing Square",
         "Freddie Mac",
-        "US Government",
-        "Pershing Square"
+        "US Government"
       ],
       "articles": [
         {
@@ -2474,8 +2652,8 @@
       "latest_date": "2026-01-04T00:38:01Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Indus Holding",
-        "German Government"
+        "German Government",
+        "Indus Holding"
       ],
       "articles": [
         {
@@ -2498,8 +2676,8 @@
       "latest_date": "2026-01-04T03:22:07Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "European Commission",
-        "EU"
+        "EU",
+        "European Commission"
       ],
       "articles": [
         {
@@ -2567,9 +2745,9 @@
       "latest_date": "2026-01-04T09:11:00Z",
       "avg_relevance": 0.75,
       "key_entities": [
+        "Nvidia",
         "Chinese Government",
-        "US Government",
-        "Nvidia"
+        "US Government"
       ],
       "articles": [
         {
@@ -2616,8 +2794,8 @@
       "latest_date": "2026-01-04T13:59:16Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "KfW",
         "German Government",
+        "KfW",
         "Altius Renewable Royalties"
       ],
       "articles": [
@@ -2665,9 +2843,9 @@
       "latest_date": "2026-01-04T15:18:02Z",
       "avg_relevance": 0.7,
       "key_entities": [
+        "German Government",
         "EU",
-        "Buzzi S.p.A.",
-        "German Government"
+        "Buzzi S.p.A."
       ],
       "articles": [
         {
@@ -2690,9 +2868,9 @@
       "latest_date": "2026-01-04T20:18:31Z",
       "avg_relevance": 0.7,
       "key_entities": [
+        "German Government",
         "Healthcare Sector",
-        "Medios AG",
-        "German Government"
+        "Medios AG"
       ],
       "articles": [
         {
@@ -2715,8 +2893,8 @@
       "latest_date": "2026-01-05T04:09:38Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Federal Ministry for Economic Affairs and Climate Action",
-        "Siltronic AG"
+        "Siltronic AG",
+        "Federal Ministry for Economic Affairs and Climate Action"
       ],
       "articles": [
         {
@@ -2739,8 +2917,8 @@
       "latest_date": "2026-01-05T05:18:54Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "Verbio SE",
-        "EU"
+        "EU",
+        "Verbio SE"
       ],
       "articles": [
         {
@@ -2787,9 +2965,9 @@
       "latest_date": "2026-01-05T07:52:35Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "BMWi",
         "German Government",
-        "Data Centers"
+        "Data Centers",
+        "BMWi"
       ],
       "articles": [
         {
@@ -2812,8 +2990,8 @@
       "latest_date": "2026-01-05T09:33:58Z",
       "avg_relevance": 0.75,
       "key_entities": [
-        "CNIPA",
-        "MIIT"
+        "MIIT",
+        "CNIPA"
       ],
       "articles": [
         {
@@ -2836,8 +3014,8 @@
       "latest_date": "2026-01-05T09:50:17Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "SMS group",
-        "Metso"
+        "Metso",
+        "SMS group"
       ],
       "articles": [
         {
@@ -2860,9 +3038,9 @@
       "latest_date": "2026-01-05T10:03:04Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "BENTELER",
         "Deutsche Bahn",
-        "ioki"
+        "ioki",
+        "BENTELER"
       ],
       "articles": [
         {
@@ -2885,10 +3063,10 @@
       "latest_date": "2026-01-05T10:32:42Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "BASF",
-        "Markus Kamieth",
         "Cefic",
-        "European Commission"
+        "European Commission",
+        "BASF",
+        "Markus Kamieth"
       ],
       "articles": [
         {
@@ -2911,9 +3089,9 @@
       "latest_date": "2026-01-05T11:20:21Z",
       "avg_relevance": 0.9,
       "key_entities": [
+        "German Government",
         "Deutsche Bahn",
-        "Federal Ministry for Digital and Transport (BMDV)",
-        "German Government"
+        "Federal Ministry for Digital and Transport (BMDV)"
       ],
       "articles": [
         {
@@ -2936,8 +3114,8 @@
       "latest_date": "2026-01-05T12:32:37Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "3D Systems",
-        "U.S. Department of Energy"
+        "U.S. Department of Energy",
+        "3D Systems"
       ],
       "articles": [
         {
@@ -3056,9 +3234,9 @@
       "latest_date": "2026-01-05T15:07:31Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "Venezuela",
         "Donald Trump",
-        "US Oil Companies"
+        "US Oil Companies",
+        "Venezuela"
       ],
       "articles": [
         {
@@ -3104,9 +3282,9 @@
       "latest_date": "2026-01-05T16:46:02Z",
       "avg_relevance": 0.75,
       "key_entities": [
+        "Rocket Lab USA",
         "U.S. Government",
-        "Space Development Agency (SDA)",
-        "Rocket Lab USA"
+        "Space Development Agency (SDA)"
       ],
       "articles": [
         {
@@ -3129,9 +3307,9 @@
       "latest_date": "2026-01-05T16:52:20Z",
       "avg_relevance": 0.9,
       "key_entities": [
+        "German Government",
         "Canada Nickel Company Inc.",
-        "Sibanye-Stillwater Ltd.",
-        "German Government"
+        "Sibanye-Stillwater Ltd."
       ],
       "articles": [
         {
@@ -3154,8 +3332,8 @@
       "latest_date": "2026-01-05T17:29:29Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Berlin Senate",
-        "Berlin City Government"
+        "Berlin City Government",
+        "Berlin Senate"
       ],
       "articles": [
         {
@@ -3179,8 +3357,8 @@
       "avg_relevance": 0.9,
       "key_entities": [
         "German Government",
-        "Port of Hamburg Beteiligungsgesellschaft SE",
-        "Hamburger Hafen und Logistik AG (HHLA)"
+        "Hamburger Hafen und Logistik AG (HHLA)",
+        "Port of Hamburg Beteiligungsgesellschaft SE"
       ],
       "articles": [
         {
@@ -3203,9 +3381,9 @@
       "latest_date": "2026-01-05T21:12:30Z",
       "avg_relevance": 0.75,
       "key_entities": [
-        "BMW",
         "BMW Group",
-        "Federal Ministry for Economic Affairs and Climate Action (BMWK)"
+        "Federal Ministry for Economic Affairs and Climate Action (BMWK)",
+        "BMW"
       ],
       "articles": [
         {
@@ -3228,10 +3406,10 @@
       "latest_date": "2026-01-05T21:21:27Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Pentagon",
+        "Systima",
         "Karman Space & Defense",
-        "Department of War",
-        "Systima"
+        "Pentagon",
+        "Department of War"
       ],
       "articles": [
         {
@@ -3254,8 +3432,8 @@
       "latest_date": "2026-01-05T22:07:02Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "Eiffage S.A.",
-        "European Central Bank"
+        "European Central Bank",
+        "Eiffage S.A."
       ],
       "articles": [
         {
@@ -3303,8 +3481,8 @@
       "latest_date": "2026-01-06T06:15:04Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "German Sustainability Award",
-        "Sika"
+        "Sika",
+        "German Sustainability Award"
       ],
       "articles": [
         {
@@ -3327,9 +3505,9 @@
       "latest_date": "2026-01-06T09:08:34Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Rheinmetall AG",
+        "German Government",
         "Bundeswehr",
-        "German Government"
+        "Rheinmetall AG"
       ],
       "articles": [
         {
@@ -3377,8 +3555,8 @@
       "latest_date": "2026-01-06T10:48:29Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "RWE Aktiengesellschaft",
-        "BaFin"
+        "BaFin",
+        "RWE Aktiengesellschaft"
       ],
       "articles": [
         {
@@ -3401,10 +3579,10 @@
       "latest_date": "2026-01-06T12:09:52Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "U.S. Department of Homeland Security",
-        "Ocean Power Technologies",
         "Anduril",
-        "U.S. Coast Guard"
+        "Ocean Power Technologies",
+        "U.S. Coast Guard",
+        "U.S. Department of Homeland Security"
       ],
       "articles": [
         {
@@ -3427,9 +3605,9 @@
       "latest_date": "2026-01-06T12:32:45Z",
       "avg_relevance": 0.9,
       "key_entities": [
+        "German Government",
         "German Industry",
-        "Friedrich Merz",
-        "German Government"
+        "Friedrich Merz"
       ],
       "articles": [
         {
@@ -3453,8 +3631,8 @@
       "avg_relevance": 0.7,
       "key_entities": [
         "Republic Services",
-        "Ameresco",
-        "Federal Ministry for Economic Affairs and Climate Action"
+        "Federal Ministry for Economic Affairs and Climate Action",
+        "Ameresco"
       ],
       "articles": [
         {
@@ -3477,9 +3655,9 @@
       "latest_date": "2026-01-06T13:07:12Z",
       "avg_relevance": 0.95,
       "key_entities": [
+        "U.S. Department of Energy",
         "DOE",
-        "Terrestrial Energy",
-        "U.S. Department of Energy"
+        "Terrestrial Energy"
       ],
       "articles": [
         {
@@ -3502,9 +3680,9 @@
       "latest_date": "2026-01-06T13:16:56Z",
       "avg_relevance": 0.6,
       "key_entities": [
+        "KBA",
         "Tesla",
         "German Government",
-        "KBA",
         "BYD"
       ],
       "articles": [
@@ -3528,8 +3706,8 @@
       "latest_date": "2026-01-06T14:04:15Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "SMS group",
-        "Haynes"
+        "Haynes",
+        "SMS group"
       ],
       "articles": [
         {
@@ -3552,8 +3730,8 @@
       "latest_date": "2026-01-06T15:00:49Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Ministry of Agriculture",
-        "German Government"
+        "German Government",
+        "Ministry of Agriculture"
       ],
       "articles": [
         {
@@ -3576,10 +3754,10 @@
       "latest_date": "2026-01-06T15:09:00Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "Dietmar Woidke",
-        "Brandenburg State Government",
         "SPD",
-        "AfD"
+        "AfD",
+        "Brandenburg State Government",
+        "Dietmar Woidke"
       ],
       "articles": [
         {
@@ -3602,9 +3780,9 @@
       "latest_date": "2026-01-06T15:48:46Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "T1 Energy",
+        "German Government",
         "Section 45X",
-        "German Government"
+        "T1 Energy"
       ],
       "articles": [
         {
@@ -3618,30 +3796,6 @@
       ]
     },
     {
-      "id": "ev-incentives",
-      "label": "EV Incentives",
-      "policy_type": "Subsidy",
-      "article_count": 1,
-      "is_trending": false,
-      "is_new_policy": true,
-      "latest_date": "2026-01-06T15:59:34Z",
-      "avg_relevance": 0.7,
-      "key_entities": [
-        "German Government",
-        "Automotive Industry"
-      ],
-      "articles": [
-        {
-          "id": 5155,
-          "title": "Market Research Intellect",
-          "source": "wallstreet:online",
-          "url": "https://www.wallstreet-online.de/nachricht/20340255-electric-classic-market-set-for-rapid-expansion-projected-to-surge-from-usd-2-6-billion-2024-to-usd-12-4-billion-by-2033-at-a-robust-20-3-cagr-market-research-intellect",
-          "date": "2026-01-06T15:59:34Z",
-          "summary": "The article mentions government incentives for electric vehicles, which are a key part of German industrial policy to promote the transition to electric mobility."
-        }
-      ]
-    },
-    {
       "id": "inflation/energy-prices",
       "label": "Inflation/Energy Prices",
       "policy_type": "Energy",
@@ -3651,8 +3805,8 @@
       "latest_date": "2026-01-06T16:35:09Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Bundesregierung",
-        "Deutsche Bundesbank"
+        "Deutsche Bundesbank",
+        "Bundesregierung"
       ],
       "articles": [
         {
@@ -3675,10 +3829,10 @@
       "latest_date": "2026-01-06T17:05:52Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Auvergne-Rhône-Alpes Region",
         "European Union",
         "Bpifrance",
-        "SMAIO"
+        "SMAIO",
+        "Auvergne-Rhône-Alpes Region"
       ],
       "articles": [
         {
@@ -3702,8 +3856,8 @@
       "avg_relevance": 0.9,
       "key_entities": [
         "NVIDIA",
-        "BMDW",
-        "Siemens"
+        "Siemens",
+        "BMDW"
       ],
       "articles": [
         {
@@ -3751,8 +3905,8 @@
       "latest_date": "2026-01-06T18:21:10Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "European Union",
-        "Voestalpine"
+        "Voestalpine",
+        "European Union"
       ],
       "articles": [
         {
@@ -3775,8 +3929,8 @@
       "latest_date": "2026-01-06T21:31:29Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "US Government",
-        "Uranium Energy"
+        "Uranium Energy",
+        "US Government"
       ],
       "articles": [
         {
@@ -3799,9 +3953,9 @@
       "latest_date": "2026-01-06T21:41:39Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "US Government",
         "China",
-        "MP Materials"
+        "MP Materials",
+        "US Government"
       ],
       "articles": [
         {
@@ -3850,9 +4004,9 @@
       "avg_relevance": 0.7,
       "key_entities": [
         "German Government",
-        "BMG",
         "CureVac",
-        "BioNTech"
+        "BioNTech",
+        "BMG"
       ],
       "articles": [
         {
@@ -3875,10 +4029,10 @@
       "latest_date": "2026-01-07T04:01:56Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Intel",
+        "German Government",
         "Nvidia",
-        "BMWi",
-        "German Government"
+        "Intel",
+        "BMWi"
       ],
       "articles": [
         {
@@ -3901,8 +4055,8 @@
       "latest_date": "2026-01-07T04:16:40Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Indonesian Government",
-        "PT Aneka Tambang Tbk"
+        "PT Aneka Tambang Tbk",
+        "Indonesian Government"
       ],
       "articles": [
         {
@@ -3925,8 +4079,8 @@
       "latest_date": "2026-01-07T06:04:37Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "BMW Group",
-        "German Government"
+        "German Government",
+        "BMW Group"
       ],
       "articles": [
         {
@@ -3949,9 +4103,9 @@
       "latest_date": "2026-01-07T06:16:42Z",
       "avg_relevance": 0.75,
       "key_entities": [
-        "US Government",
         "Department of Defense",
-        "MP Materials"
+        "MP Materials",
+        "US Government"
       ],
       "articles": [
         {
@@ -3998,9 +4152,9 @@
       "latest_date": "2026-01-07T07:18:13Z",
       "avg_relevance": 0.7,
       "key_entities": [
+        "Orrön Energy",
         "Bundesnetzagentur",
-        "German Government",
-        "Orrön Energy"
+        "German Government"
       ],
       "articles": [
         {
@@ -4023,8 +4177,8 @@
       "latest_date": "2026-01-07T07:38:37Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "FBH",
-        "Federal Ministry of Education and Research (BMBF)"
+        "Federal Ministry of Education and Research (BMBF)",
+        "FBH"
       ],
       "articles": [
         {
@@ -4047,8 +4201,8 @@
       "latest_date": "2026-01-07T08:42:06Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Fannie Mae",
-        "German Financial Regulators"
+        "German Financial Regulators",
+        "Fannie Mae"
       ],
       "articles": [
         {
@@ -4169,8 +4323,8 @@
       "latest_date": "2026-01-07T10:17:35Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "US Government",
-        "Energy Fuels Inc."
+        "Energy Fuels Inc.",
+        "US Government"
       ],
       "articles": [
         {
@@ -4193,8 +4347,8 @@
       "latest_date": "2026-01-07T10:46:39Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "Danfoss",
         "University of Southern Denmark",
+        "Danfoss",
         "Hewlett Packard Enterprise"
       ],
       "articles": [
@@ -4265,8 +4419,8 @@
       "latest_date": "2026-01-07T10:57:27Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "German Federal Ministry for Economic Cooperation and Development",
-        "BMZ"
+        "BMZ",
+        "German Federal Ministry for Economic Cooperation and Development"
       ],
       "articles": [
         {
@@ -4313,8 +4467,8 @@
       "latest_date": "2026-01-07T12:32:20Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "German Government (potential investment/funding)",
-        "Kuya Silver"
+        "Kuya Silver",
+        "German Government (potential investment/funding)"
       ],
       "articles": [
         {
@@ -4338,8 +4492,8 @@
       "avg_relevance": 0.7,
       "key_entities": [
         "XCharge",
-        "Energy Plus",
-        "German Government (potential subsidies)"
+        "German Government (potential subsidies)",
+        "Energy Plus"
       ],
       "articles": [
         {
@@ -4412,8 +4566,8 @@
       "latest_date": "2026-01-07T13:44:29Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Agora Energiewende",
-        "German Government"
+        "German Government",
+        "Agora Energiewende"
       ],
       "articles": [
         {
@@ -4436,8 +4590,8 @@
       "latest_date": "2026-01-07T14:02:19Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "US Government",
-        "BlockQuarry Corp."
+        "BlockQuarry Corp.",
+        "US Government"
       ],
       "articles": [
         {
@@ -4447,30 +4601,6 @@
           "url": "https://www.wallstreet-online.de/nachricht/20344770-blockquarry-corp-reports-surging-interest-for-american-made-blqcbuster-miners-following-preorder-launch",
           "date": "2026-01-07T14:02:19Z",
           "summary": "Demand is surging for BlockQuarry's American-made bitcoin miners, potentially benefiting from government policies promoting domestic manufacturing."
-        }
-      ]
-    },
-    {
-      "id": "semiconductor-subsidies",
-      "label": "Semiconductor Subsidies",
-      "policy_type": "R&D",
-      "article_count": 1,
-      "is_trending": false,
-      "is_new_policy": true,
-      "latest_date": "2026-01-07T14:14:05Z",
-      "avg_relevance": 0.9,
-      "key_entities": [
-        "Micron",
-        "New York State Government"
-      ],
-      "articles": [
-        {
-          "id": 3743,
-          "title": "Micron Announces Groundbreaking for Historic New York Megafab",
-          "source": "wallstreet:online",
-          "url": "https://www.wallstreet-online.de/nachricht/20344950-micron-announces-groundbreaking-for-historic-new-york-megafab",
-          "date": "2026-01-07T14:14:05Z",
-          "summary": "Micron is building a new megafab in New York state with significant private investment, potentially supported by government incentives for semiconductor manufacturing."
         }
       ]
     },
@@ -4531,9 +4661,9 @@
       "latest_date": "2026-01-07T16:28:53Z",
       "avg_relevance": 0.75,
       "key_entities": [
-        "Eutelsat",
+        "EU",
         "European Commission",
-        "EU"
+        "Eutelsat"
       ],
       "articles": [
         {
@@ -4556,8 +4686,8 @@
       "latest_date": "2026-01-07T16:53:26Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Amprion GmbH",
-        "German Government"
+        "German Government",
+        "Amprion GmbH"
       ],
       "articles": [
         {
@@ -4580,8 +4710,8 @@
       "latest_date": "2026-01-07T18:28:52Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "European Commission",
-        "Voestalpine"
+        "Voestalpine",
+        "European Commission"
       ],
       "articles": [
         {
@@ -4604,8 +4734,8 @@
       "latest_date": "2026-01-07T18:38:52Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "JinkoSolar",
-        "German Government"
+        "German Government",
+        "JinkoSolar"
       ],
       "articles": [
         {
@@ -4629,8 +4759,8 @@
       "avg_relevance": 0.7,
       "key_entities": [
         "Washington County Planning Commission",
-        "Federal Government",
-        "BWX Technologies"
+        "BWX Technologies",
+        "Federal Government"
       ],
       "articles": [
         {
@@ -4702,8 +4832,8 @@
       "latest_date": "2026-01-08T03:05:33Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "UN",
-        "European Commission"
+        "European Commission",
+        "UN"
       ],
       "articles": [
         {
@@ -4726,8 +4856,8 @@
       "latest_date": "2026-01-08T04:29:53Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "US Government",
-        "Energy Fuels"
+        "Energy Fuels",
+        "US Government"
       ],
       "articles": [
         {
@@ -4797,8 +4927,8 @@
       "latest_date": "2026-01-08T06:56:44Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "AFYREN",
-        "AFYREN NEOXY"
+        "AFYREN NEOXY",
+        "AFYREN"
       ],
       "articles": [
         {
@@ -4821,9 +4951,9 @@
       "latest_date": "2026-01-08T07:06:28Z",
       "avg_relevance": 0.7,
       "key_entities": [
+        "Trina Solar",
         "US Government",
-        "T1 Energy",
-        "Trina Solar"
+        "T1 Energy"
       ],
       "articles": [
         {
@@ -4870,8 +5000,8 @@
       "latest_date": "2026-01-08T07:38:19Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "MTU Aero Engines",
-        "BaFin"
+        "BaFin",
+        "MTU Aero Engines"
       ],
       "articles": [
         {
@@ -4894,8 +5024,8 @@
       "latest_date": "2026-01-08T07:52:43Z",
       "avg_relevance": 0.75,
       "key_entities": [
-        "European Union",
-        "Voestalpine"
+        "Voestalpine",
+        "European Union"
       ],
       "articles": [
         {
@@ -4942,9 +5072,9 @@
       "latest_date": "2026-01-08T08:33:17Z",
       "avg_relevance": 0.7,
       "key_entities": [
+        "PlanA.earth GmbH",
         "Diginex",
-        "German Government",
-        "PlanA.earth GmbH"
+        "German Government"
       ],
       "articles": [
         {
@@ -4967,8 +5097,8 @@
       "latest_date": "2026-01-08T09:27:23Z",
       "avg_relevance": 0.75,
       "key_entities": [
-        "Nvidia",
-        "Chinese authorities"
+        "Chinese authorities",
+        "Nvidia"
       ],
       "articles": [
         {
@@ -4991,8 +5121,8 @@
       "latest_date": "2026-01-08T10:07:27Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Switzerland",
-        "German Government"
+        "German Government",
+        "Switzerland"
       ],
       "articles": [
         {
@@ -5039,8 +5169,8 @@
       "latest_date": "2026-01-08T11:06:35Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Iveco Group",
-        "CDP"
+        "CDP",
+        "Iveco Group"
       ],
       "articles": [
         {
@@ -5063,10 +5193,10 @@
       "latest_date": "2026-01-08T11:19:14Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "European Lithium",
-        "Critical Metals Corp",
+        "German Government",
         "EU",
-        "German Government"
+        "Critical Metals Corp",
+        "European Lithium"
       ],
       "articles": [
         {
@@ -5112,8 +5242,8 @@
       "latest_date": "2026-01-08T13:33:19Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "HausVorteil AG",
-        "Donald Trump"
+        "Donald Trump",
+        "HausVorteil AG"
       ],
       "articles": [
         {
@@ -5136,9 +5266,9 @@
       "latest_date": "2026-01-08T13:37:32Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Pentagon",
+        "Congress",
         "Defense Contractors",
-        "Congress"
+        "Pentagon"
       ],
       "articles": [
         {
@@ -5185,11 +5315,11 @@
       "latest_date": "2026-01-08T16:50:35Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "Jordan",
         "European Council",
+        "EU Commission",
+        "Jordan",
         "Ursula von der Leyen",
-        "Antonio Costa",
-        "EU Commission"
+        "Antonio Costa"
       ],
       "articles": [
         {
@@ -5235,8 +5365,8 @@
       "latest_date": "2026-01-08T17:15:53Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "NIAID",
-        "University of Wisconsin-Madison"
+        "University of Wisconsin-Madison",
+        "NIAID"
       ],
       "articles": [
         {
@@ -5259,8 +5389,8 @@
       "latest_date": "2026-01-08T21:39:51Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Solar Developers",
-        "German Government"
+        "German Government",
+        "Solar Developers"
       ],
       "articles": [
         {
@@ -5307,9 +5437,9 @@
       "latest_date": "2026-01-09T01:07:15Z",
       "avg_relevance": 0.7,
       "key_entities": [
+        "German Government",
         "BASF",
-        "Fluor",
-        "German Government"
+        "Fluor"
       ],
       "articles": [
         {
@@ -5332,8 +5462,8 @@
       "latest_date": "2026-01-09T01:34:13Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "U.S. Government",
         "Johnson & Johnson",
+        "U.S. Government",
         "Trump Administration"
       ],
       "articles": [
@@ -5380,9 +5510,9 @@
       "latest_date": "2026-01-09T08:11:52Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Berlin Senate",
+        "German Government",
         "Energy Suppliers",
-        "German Government"
+        "Berlin Senate"
       ],
       "articles": [
         {
@@ -5405,9 +5535,9 @@
       "latest_date": "2026-01-09T08:37:36Z",
       "avg_relevance": 0.95,
       "key_entities": [
+        "Bundeswehr",
         "PSM GmbH",
-        "Rheinmetall",
-        "Bundeswehr"
+        "Rheinmetall"
       ],
       "articles": [
         {
@@ -5430,8 +5560,8 @@
       "latest_date": "2026-01-09T09:06:46Z",
       "avg_relevance": 0.75,
       "key_entities": [
-        "European Firms",
-        "EU"
+        "EU",
+        "European Firms"
       ],
       "articles": [
         {
@@ -5503,8 +5633,8 @@
       "latest_date": "2026-01-09T11:08:44Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Heinrich Böll Stiftung",
-        "German Government"
+        "German Government",
+        "Heinrich Böll Stiftung"
       ],
       "articles": [
         {
@@ -5527,8 +5657,8 @@
       "latest_date": "2026-01-09T13:00:20Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Befesa S.A.",
-        "EU Commission"
+        "EU Commission",
+        "Befesa S.A."
       ],
       "articles": [
         {
@@ -5620,9 +5750,9 @@
       "latest_date": "2026-01-09T17:31:51Z",
       "avg_relevance": 0.75,
       "key_entities": [
+        "German exporters",
         "European Union",
-        "Mercosur",
-        "German exporters"
+        "Mercosur"
       ],
       "articles": [
         {
@@ -5645,12 +5775,12 @@
       "latest_date": "2026-01-09T18:54:37Z",
       "avg_relevance": 0.75,
       "key_entities": [
+        "EU",
         "Mercosur",
-        "Brazil",
-        "Argentina",
-        "Paraguay",
         "Uruguay",
-        "EU"
+        "Paraguay",
+        "Argentina",
+        "Brazil"
       ],
       "articles": [
         {
@@ -5673,9 +5803,9 @@
       "latest_date": "2026-01-09T19:07:59Z",
       "avg_relevance": 0.7,
       "key_entities": [
+        "German Government",
         "Utility Companies",
-        "Solar Installers",
-        "German Government"
+        "Solar Installers"
       ],
       "articles": [
         {
@@ -5698,9 +5828,9 @@
       "latest_date": "2026-01-09T20:32:53Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "State-Sponsored Enterprises",
-        "Dynex Capital",
         "Federal Government",
+        "Dynex Capital",
+        "State-Sponsored Enterprises",
         "BTIG"
       ],
       "articles": [
@@ -5772,8 +5902,8 @@
       "latest_date": "2026-01-10T02:28:27Z",
       "avg_relevance": 0.6,
       "key_entities": [
-        "German Courts",
         "Bayer AG",
+        "German Courts",
         "Federal Ministry of Justice"
       ],
       "articles": [
@@ -5797,9 +5927,9 @@
       "latest_date": "2026-01-10T02:28:33Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "German Steel Industry",
         "Federal Ministry for Economic Affairs and Climate Action",
-        "Nucor Corporation"
+        "Nucor Corporation",
+        "German Steel Industry"
       ],
       "articles": [
         {
@@ -5822,9 +5952,9 @@
       "latest_date": "2026-01-10T09:30:12Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "BMWi",
         "German Government",
-        "Meta Platforms Inc."
+        "Meta Platforms Inc.",
+        "BMWi"
       ],
       "articles": [
         {
@@ -5847,8 +5977,8 @@
       "latest_date": "2026-01-10T10:55:27Z",
       "avg_relevance": 0.75,
       "key_entities": [
-        "SSAB",
         "German Government",
+        "SSAB",
         "EU Green Deal"
       ],
       "articles": [
@@ -5872,9 +6002,9 @@
       "latest_date": "2026-01-10T11:00:56Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Uniper",
+        "German Government",
         "Bundesnetzagentur",
-        "German Government"
+        "Uniper"
       ],
       "articles": [
         {
@@ -5921,10 +6051,10 @@
       "latest_date": "2026-01-10T15:25:35Z",
       "avg_relevance": 0.7,
       "key_entities": [
-        "Pfizer",
         "Moderna",
+        "BioNTech",
         "Bayer",
-        "BioNTech"
+        "Pfizer"
       ],
       "articles": [
         {
@@ -5938,30 +6068,6 @@
       ]
     },
     {
-      "id": "net-zero-transition",
-      "label": "Net-Zero Transition",
-      "policy_type": "Environment",
-      "article_count": 1,
-      "is_trending": false,
-      "is_new_policy": true,
-      "latest_date": "2026-01-10T15:39:33Z",
-      "avg_relevance": 0.75,
-      "key_entities": [
-        "BASF SE",
-        "German Government"
-      ],
-      "articles": [
-        {
-          "id": 10014,
-          "title": "BASF SE: Can the World's Largest Chemical Player Reinvent Itself for the Net?Zero Age?",
-          "source": "Ad Hoc News",
-          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/basf-se-can-the-world-s-largest-chemical-player-reinvent-itself-for-the/68475579",
-          "date": "2026-01-10T15:39:33Z",
-          "summary": "BASF is undergoing a transformation to become a data-driven, low-carbon materials platform, aligning with net-zero goals and potentially influenced by German government policies."
-        }
-      ]
-    },
-    {
       "id": "ai-power-demand",
       "label": "AI Power Demand",
       "policy_type": "Energy",
@@ -5971,8 +6077,8 @@
       "latest_date": "2026-01-10T19:59:07Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "NextEra Energy",
-        "German Government"
+        "German Government",
+        "NextEra Energy"
       ],
       "articles": [
         {
@@ -5982,6 +6088,475 @@
           "url": "https://www.ad-hoc-news.de/boerse/ueberblick/nextera-energy-stock-gains-momentum-from-market-and-regulatory-tailwinds/68476094",
           "date": "2026-01-10T19:59:07Z",
           "summary": "NextEra Energy benefits from a legislative proposal to accelerate power demand from artificial intelligence."
+        }
+      ]
+    },
+    {
+      "id": "german-brands",
+      "label": "German Brands",
+      "policy_type": "Other",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T02:30:19Z",
+      "avg_relevance": 0.6,
+      "key_entities": [
+        "German Government",
+        "Guhl Shampoo"
+      ],
+      "articles": [
+        {
+          "id": 10487,
+          "title": "Guhl Shampoo Review: Is This Cult German Haircare Secret Worth the Hype?",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/guhl-shampoo-review-is-this-cult-german-haircare-secret-worth-the-hype/68476783",
+          "date": "2026-01-11T02:30:19Z",
+          "summary": "Guhl Shampoo, a German brand, is gaining international attention, potentially benefiting from government promotion of German exports."
+        }
+      ]
+    },
+    {
+      "id": "ev-support",
+      "label": "EV Support",
+      "policy_type": "Energy",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T02:33:20Z",
+      "avg_relevance": 0.75,
+      "key_entities": [
+        "Continental AG",
+        "Robert Habeck",
+        "BMWK"
+      ],
+      "articles": [
+        {
+          "id": 10482,
+          "title": "Continental AG stock: Between EV Headwinds and Margin Hopes, Is the Worst Finally Priced In?",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/continental-ag-stock-between-ev-headwinds-and-margin-hopes-is-the-worst/68476768",
+          "date": "2026-01-11T02:33:20Z",
+          "summary": "Continental AG's stock performance is linked to the transition to electric vehicles and potential government support measures."
+        }
+      ]
+    },
+    {
+      "id": "industrial-strategy",
+      "label": "Industrial Strategy",
+      "policy_type": "Other",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T07:26:34Z",
+      "avg_relevance": 0.6,
+      "key_entities": [
+        "Nordic Governments",
+        "Indutrade AB"
+      ],
+      "articles": [
+        {
+          "id": 10466,
+          "title": "Indutrade AB Stock: Quiet Consolidation Hides A Steady Industrial Compounder",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/indutrade-ab-stock-quiet-consolidation-hides-a-steady-industrial/68477157",
+          "date": "2026-01-11T07:26:34Z",
+          "summary": "Analysis of Indutrade AB highlights its role as a successful industrial compounder, potentially benefiting from broader Nordic industrial strategies."
+        }
+      ]
+    },
+    {
+      "id": "germany-india-relations",
+      "label": "Germany-India Relations",
+      "policy_type": "Trade",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T08:09:36Z",
+      "avg_relevance": 0.7,
+      "key_entities": [
+        "German Government",
+        "Indian Government",
+        "OECD"
+      ],
+      "articles": [
+        {
+          "id": 10459,
+          "title": "For Germany and India, forging closer relations is not easy",
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/for-germany-and-india-forging-closer-relations-is-not-easy/a-74279379",
+          "date": "2026-01-11T08:09:36Z",
+          "summary": "Germany is increasing its economic and geopolitical interest in India, with potential implications for trade relations and economic growth forecasts."
+        }
+      ]
+    },
+    {
+      "id": "ev-market-share",
+      "label": "EV Market Share",
+      "policy_type": "Trade",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T08:46:10Z",
+      "avg_relevance": 0.7,
+      "key_entities": [
+        "Tesla",
+        "BYD"
+      ],
+      "articles": [
+        {
+          "id": 10446,
+          "title": "BYD Surpasses Tesla to Claim Global EV Sales Crown",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/byd-surpasses-tesla-to-claim-global-ev-sales-crown/68477362",
+          "date": "2026-01-11T08:46:10Z",
+          "summary": "BYD surpassing Tesla in EV sales may prompt trade policy responses or adjustments in German automotive industry strategy."
+        }
+      ]
+    },
+    {
+      "id": "737-max-certification",
+      "label": "737 MAX Certification",
+      "policy_type": "Regulation",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T08:46:14Z",
+      "avg_relevance": 0.8,
+      "key_entities": [
+        "FAA",
+        "Boeing"
+      ],
+      "articles": [
+        {
+          "id": 10443,
+          "title": "Boeing Shares Surge to Annual High on Regulatory and Defense Wins",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/boeing-shares-surge-to-annual-high-on-regulatory-and-defense-wins/68477372",
+          "date": "2026-01-11T08:46:14Z",
+          "summary": "Boeing's stock is rising due to progress in certifying the 737 MAX 10 and securing defense contracts, indicating regulatory approval and government procurement."
+        }
+      ]
+    },
+    {
+      "id": "renewable-energy-transition",
+      "label": "Renewable Energy Transition",
+      "policy_type": "Energy",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T12:07:10Z",
+      "avg_relevance": 0.75,
+      "key_entities": [
+        "German Government",
+        "RWE AG",
+        "BMWK"
+      ],
+      "articles": [
+        {
+          "id": 10429,
+          "title": "RWE AG Stock Is Quietly Going Off: Is This European Energy Giant Your Next Power Play?",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/rwe-ag-stock-is-quietly-going-off-is-this-european-energy-giant-your-next/68477790",
+          "date": "2026-01-11T12:07:10Z",
+          "summary": "RWE AG is pivoting towards renewable energy, potentially influenced by German government policies supporting the energy transition."
+        }
+      ]
+    },
+    {
+      "id": "semiconductor-manufacturing",
+      "label": "Semiconductor Manufacturing",
+      "policy_type": "R&D",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T12:43:59Z",
+      "avg_relevance": 0.75,
+      "key_entities": [
+        "German Government",
+        "EU",
+        "TSMC",
+        "ASML"
+      ],
+      "articles": [
+        {
+          "id": 10407,
+          "title": "The Semiconductor Showdown: TSMC and ASML's Divergent Paths to Dominance",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/the-semiconductor-showdown-tsmc-and-asml-s-divergent-paths-to-dominance/68477846",
+          "date": "2026-01-11T12:43:59Z",
+          "summary": "Developments in the semiconductor industry, with implications for German government support for domestic chip manufacturing."
+        }
+      ]
+    },
+    {
+      "id": "grid-infrastructure",
+      "label": "Grid Infrastructure",
+      "policy_type": "Energy",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T18:04:43Z",
+      "avg_relevance": 0.8,
+      "key_entities": [
+        "European Union",
+        "Terna - Rete Elettrica Nazionale"
+      ],
+      "articles": [
+        {
+          "id": 10334,
+          "title": "Terna - Rete Elettrica Nazionale: The High-Voltage Backbone Powering Europe's Energy Transition",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/terna-rete-elettrica-nazionale-the-high-voltage-backbone-powering/68478524",
+          "date": "2026-01-11T18:04:43Z",
+          "summary": "Terna is upgrading Italy's grid to support the energy transition, aligning with European energy policy."
+        }
+      ]
+    },
+    {
+      "id": "india-germany-trade",
+      "label": "India-Germany Trade",
+      "policy_type": "Trade",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-11T18:32:02Z",
+      "avg_relevance": 0.7,
+      "key_entities": [
+        "New Delhi",
+        "Berlin",
+        "Friedrich Merz"
+      ],
+      "articles": [
+        {
+          "id": 10330,
+          "title": "India-Germany ties: What New Delhi expects from Berlin",
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/germany-india-relations-new-delhi-merz-modi-trade-tech/video-75466868",
+          "date": "2026-01-11T18:32:02Z",
+          "summary": "India seeks deeper trade cooperation with Germany during Chancellor Merz's visit."
+        }
+      ]
+    },
+    {
+      "id": "india-trade-relations",
+      "label": "India Trade Relations",
+      "policy_type": "Trade",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-12T00:17:35Z",
+      "avg_relevance": 0.7,
+      "key_entities": [
+        "Germany",
+        "Narendra Modi",
+        "India",
+        "Friedrich Merz"
+      ],
+      "articles": [
+        {
+          "id": 10226,
+          "title": "German Chancellor Merz begins his first state visit to India",
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/chancellor-friedrich-merz-makes-his-first-state-visit-to-india/live-75434261",
+          "date": "2026-01-12T00:17:35Z",
+          "summary": "German Chancellor Merz is visiting India for trade talks, marking his first state visit since becoming chancellor."
+        }
+      ]
+    },
+    {
+      "id": "renewable-energy-investment",
+      "label": "Renewable Energy Investment",
+      "policy_type": "Energy",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-12T07:52:35Z",
+      "avg_relevance": 0.75,
+      "key_entities": [
+        "Nextpower",
+        "Saudi Arabia",
+        "Abunayyan Holding"
+      ],
+      "articles": [
+        {
+          "id": 10141,
+          "title": "Energy Leaders Abunayyan Holding and Nextpower Complete Formation of Joint Venture, Nextpower Arabia",
+          "source": "wallstreet:online",
+          "url": "https://www.wallstreet-online.de/nachricht/20358444-energy-leaders-abunayyan-holding-and-nextpower-complete-formation-of-joint-venture-nextpower-arabia",
+          "date": "2026-01-12T07:52:35Z",
+          "summary": "Joint venture between Abunayyan Holding and Nextpower to build an advanced manufacturing facility for solar trackers in Saudi Arabia."
+        }
+      ]
+    },
+    {
+      "id": "battery-storage-subsidies",
+      "label": "Battery Storage Subsidies",
+      "policy_type": "Energy",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-12T08:20:42Z",
+      "avg_relevance": 0.9,
+      "key_entities": [
+        "Federal Grid Agency",
+        "BMWK"
+      ],
+      "articles": [
+        {
+          "id": 10117,
+          "title": "Germany adds 6.57 GWh of battery storage in 2025, total hits 24 GWh",
+          "source": "pv magazine International",
+          "url": "https://www.pv-magazine.com/2026/01/12/germany-adds-6-57-gwh-of-battery-storage-in-2025-total-hits-24-gwh/",
+          "date": "2026-01-12T08:20:42Z",
+          "summary": "Germany added 6.57 GWh of battery storage in 2025, driven by industrial systems, potentially influenced by government subsidies and grid regulations."
+        }
+      ]
+    },
+    {
+      "id": "foreign-investment",
+      "label": "Foreign Investment",
+      "policy_type": "Trade",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-12T09:46:18Z",
+      "avg_relevance": 0.75,
+      "key_entities": [
+        "German Government",
+        "Teknovace",
+        "Remmers Gruppe"
+      ],
+      "articles": [
+        {
+          "id": 10090,
+          "title": "Remmers and Teknovace and forge partnership to build global wood coatings hub in India - European Coatings",
+          "source": "European Coatings",
+          "url": "https://www.european-coatings.com/news/remmers-and-teknovace-and-forge-partnership-to-build-global-wood-coatings-hub-in-india/",
+          "date": "2026-01-12T09:46:18Z",
+          "summary": "German company Remmers Gruppe invests EUR 35 million in Indian firm Teknovace, marking a significant foreign investment."
+        }
+      ]
+    },
+    {
+      "id": "heat-pump-efficiency",
+      "label": "Heat Pump Efficiency",
+      "policy_type": "Energy",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-12T11:00:59Z",
+      "avg_relevance": 0.6,
+      "key_entities": [
+        "Frascold"
+      ],
+      "articles": [
+        {
+          "id": 10081,
+          "title": "The future of potash producers",
+          "source": "firmenpresse.de",
+          "url": "https://www.firmenpresse.de/pressrelease731323/the-future-of-potash-producers.html",
+          "date": "2026-01-12T11:00:59Z",
+          "summary": "Frascold introduces new screw compressors for high-temperature industrial heat pumps, potentially supporting German energy transition goals related to heat pump adoption."
+        }
+      ]
+    },
+    {
+      "id": "lng-emissions-reduction",
+      "label": "LNG Emissions Reduction",
+      "policy_type": "Energy",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-12T11:09:57Z",
+      "avg_relevance": 0.7,
+      "key_entities": [
+        "Coastal Bend LNG",
+        "KBR",
+        "ConocoPhillips"
+      ],
+      "articles": [
+        {
+          "id": 10071,
+          "title": "Hudbay Announces Closing of $600 Million Strategic Investment from Mitsubishi Corporation for 30% Joint Venture Interest in Copper World",
+          "source": "wallstreet:online",
+          "url": "https://www.wallstreet-online.de/nachricht/20359407-hudbay-announces-closing-of-600-million-strategic-investment-from-mitsubishi-corporation-for-30-joint-venture-interest-copper-world",
+          "date": "2026-01-12T11:09:57Z",
+          "summary": "Coastal Bend LNG project receives FEED award, utilizing technology aimed at reducing greenhouse gas emissions, potentially aligning with German climate policy goals for energy imports."
+        }
+      ]
+    },
+    {
+      "id": "autonomous-trucking-regulation",
+      "label": "Autonomous Trucking Regulation",
+      "policy_type": "Infrastructure",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-12T11:10:04Z",
+      "avg_relevance": 0.65,
+      "key_entities": [
+        "IVECO",
+        "European Governments",
+        "PlusAI"
+      ],
+      "articles": [
+        {
+          "id": 10059,
+          "title": "PlusAI Launches Southern Europe's First Autonomous Trucking Program with IVECO",
+          "source": "wallstreet:online",
+          "url": "https://www.wallstreet-online.de/nachricht/20359329-plusai-launches-southern-europe-s-first-autonomous-trucking-program-with-iveco",
+          "date": "2026-01-12T11:10:04Z",
+          "summary": "PlusAI and IVECO launch autonomous trucking program in Southern Europe, requiring regulatory approval and potentially impacting German logistics."
+        }
+      ]
+    },
+    {
+      "id": "biodegradable-plastics-regulation",
+      "label": "Biodegradable Plastics Regulation",
+      "policy_type": "Environment",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-12T11:35:13Z",
+      "avg_relevance": 0.7,
+      "key_entities": [
+        "Chemical Industry",
+        "German Researchers",
+        "EU Regulations"
+      ],
+      "articles": [
+        {
+          "id": 10052,
+          "title": "Solvent-free synthesis of biodegradable isosorbide-based polycarbonates - European Coatings",
+          "source": "European Coatings",
+          "url": "https://www.european-coatings.com/news/coatings-technologies/solvent-free-synthesis-of-biodegradable-isosorbide-based-polycarbonates/",
+          "date": "2026-01-12T11:35:13Z",
+          "summary": "Researchers develop solvent-free synthesis of biodegradable polycarbonates, aligning with green chemistry principles and potentially influencing EU regulations on plastics."
+        }
+      ]
+    },
+    {
+      "id": "rail-infrastructure-funding",
+      "label": "Rail Infrastructure Funding",
+      "policy_type": "Infrastructure",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-12T11:47:00Z",
+      "avg_relevance": 0.6,
+      "key_entities": [
+        "German Government",
+        "DB (Deutsche Bahn)",
+        "Vossloh AG"
+      ],
+      "articles": [
+        {
+          "id": 10049,
+          "title": "Vossloh AG: The Quiet Rail-Tech Powerhouse Redefining How the World Moves",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/vossloh-ag-the-quiet-rail-tech-powerhouse-redefining-how-the-world-moves/68480312",
+          "date": "2026-01-12T11:47:00Z",
+          "summary": "Vossloh AG benefits from rising passenger numbers and government focus on shifting freight to rail, supported by public budgets."
         }
       ]
     }
