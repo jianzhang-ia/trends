@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-01-12T20:10:05.799152",
+  "generated_at": "2026-01-13T17:16:47.587277",
   "stats": {
-    "total_news_items": 10956,
-    "screened_items": 10956,
-    "total_topics": 41,
+    "total_news_items": 12577,
+    "screened_items": 12577,
+    "total_topics": 43,
     "trending_topics": 0,
-    "new_policies": 41,
-    "latest_news_date": "2026-01-12T11:52:47Z",
+    "new_policies": 43,
+    "latest_news_date": "2026-01-13T15:25:11Z",
     "by_type": {
       "Energy": 8,
       "Subsidy": 5,
-      "Trade": 9,
+      "Trade": 10,
       "Infrastructure": 5,
       "R&D": 7,
       "Regulation": 2,
-      "Other": 1,
+      "Other": 2,
       "Environment": 2,
       "Defense": 2
     }
@@ -37,8 +37,8 @@
       "avg_relevance": 0.9,
       "key_entities": [
         "Sunrise Wind LLC",
-        "Ørsted",
-        "U.S. Department of the Interior"
+        "U.S. Department of the Interior",
+        "Ørsted"
       ],
       "articles": [
         {
@@ -70,12 +70,20 @@
       "avg_relevance": 0.9,
       "key_entities": [
         "German Government",
-        "Canadian Government",
-        "Rock Tech Lithium",
+        "KfW",
         "Vulcan Energy",
-        "KfW"
+        "Rock Tech Lithium",
+        "Canadian Government"
       ],
       "articles": [
+        {
+          "id": 10879,
+          "title": "Vulcan Energy Gains Momentum from Shareholder Vote and Lithium Rally",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/vulcan-energy-gains-momentum-from-shareholder-vote-and-lithium-rally/68480684",
+          "date": "2026-01-12T14:05:27Z",
+          "summary": "Vulcan Energy receives shareholder approval for capital initiatives and benefits from a rally in the lithium market, potentially linked to government support for battery technology."
+        },
         {
           "id": 4479,
           "title": "Rock Tech Lithium Stock Gains Momentum from Dual Catalysts",
@@ -112,10 +120,10 @@
       "latest_date": "2026-01-07T12:03:09Z",
       "avg_relevance": 0.93,
       "key_entities": [
+        "European Union",
         "EU",
         "European Commission",
-        "Voestalpine",
-        "European Union"
+        "Voestalpine"
       ],
       "articles": [
         {
@@ -195,8 +203,8 @@
       "avg_relevance": 0.9,
       "key_entities": [
         "Marti",
-        "Implenia",
-        "Swiss Federal Railways (SBB)"
+        "Swiss Federal Railways (SBB)",
+        "Implenia"
       ],
       "articles": [
         {
@@ -251,8 +259,8 @@
       "latest_date": "2026-01-05T09:50:17Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "SMS group",
-        "Metso"
+        "Metso",
+        "SMS group"
       ],
       "articles": [
         {
@@ -275,9 +283,9 @@
       "latest_date": "2026-01-05T10:03:04Z",
       "avg_relevance": 0.9,
       "key_entities": [
+        "BENTELER",
         "Deutsche Bahn",
-        "ioki",
-        "BENTELER"
+        "ioki"
       ],
       "articles": [
         {
@@ -300,8 +308,8 @@
       "latest_date": "2026-01-05T11:20:21Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Federal Ministry for Digital and Transport (BMDV)",
         "German Government",
+        "Federal Ministry for Digital and Transport (BMDV)",
         "Deutsche Bahn"
       ],
       "articles": [
@@ -388,8 +396,8 @@
       "latest_date": "2026-01-05T16:52:20Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Canada Nickel Company Inc.",
         "German Government",
+        "Canada Nickel Company Inc.",
         "Sibanye-Stillwater Ltd."
       ],
       "articles": [
@@ -413,9 +421,9 @@
       "latest_date": "2026-01-05T20:41:19Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Hamburger Hafen und Logistik AG (HHLA)",
         "German Government",
-        "Port of Hamburg Beteiligungsgesellschaft SE"
+        "Port of Hamburg Beteiligungsgesellschaft SE",
+        "Hamburger Hafen und Logistik AG (HHLA)"
       ],
       "articles": [
         {
@@ -464,9 +472,9 @@
       "latest_date": "2026-01-06T11:04:54Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Brussels",
         "ReSourceEU",
-        "European Union"
+        "European Union",
+        "Brussels"
       ],
       "articles": [
         {
@@ -521,8 +529,8 @@
       "latest_date": "2026-01-06T12:32:45Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "German Industry",
         "German Government",
+        "German Industry",
         "Friedrich Merz"
       ],
       "articles": [
@@ -571,8 +579,8 @@
       "latest_date": "2026-01-06T15:48:46Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "T1 Energy",
         "German Government",
+        "T1 Energy",
         "Section 45X"
       ],
       "articles": [
@@ -596,10 +604,10 @@
       "latest_date": "2026-01-06T17:05:52Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "SMAIO",
-        "Bpifrance",
         "Auvergne-Rhône-Alpes Region",
-        "European Union"
+        "SMAIO",
+        "European Union",
+        "Bpifrance"
       ],
       "articles": [
         {
@@ -622,9 +630,9 @@
       "latest_date": "2026-01-06T17:12:07Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "NVIDIA",
+        "BMDW",
         "Siemens",
-        "BMDW"
+        "NVIDIA"
       ],
       "articles": [
         {
@@ -647,8 +655,8 @@
       "latest_date": "2026-01-06T18:21:10Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Voestalpine",
-        "European Union"
+        "European Union",
+        "Voestalpine"
       ],
       "articles": [
         {
@@ -672,8 +680,8 @@
       "avg_relevance": 0.9,
       "key_entities": [
         "U.S. DFC",
-        "ASP Isotopes",
-        "Renergen"
+        "Renergen",
+        "ASP Isotopes"
       ],
       "articles": [
         {
@@ -696,8 +704,8 @@
       "latest_date": "2026-01-07T13:44:29Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Agora Energiewende",
-        "German Government"
+        "German Government",
+        "Agora Energiewende"
       ],
       "articles": [
         {
@@ -720,8 +728,8 @@
       "latest_date": "2026-01-07T14:14:05Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Micron",
-        "New York State Government"
+        "New York State Government",
+        "Micron"
       ],
       "articles": [
         {
@@ -752,9 +760,9 @@
       "latest_date": "2026-01-07T16:28:59Z",
       "avg_relevance": 0.95,
       "key_entities": [
-        "Micron Technology",
         "New York State",
-        "US Government"
+        "US Government",
+        "Micron Technology"
       ],
       "articles": [
         {
@@ -785,8 +793,8 @@
       "latest_date": "2026-01-07T16:53:26Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Amprion GmbH",
-        "German Government"
+        "German Government",
+        "Amprion GmbH"
       ],
       "articles": [
         {
@@ -809,9 +817,9 @@
       "latest_date": "2026-01-07T17:30:49Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Robert Klein",
         "German Government",
-        "Voltalia"
+        "Voltalia",
+        "Robert Klein"
       ],
       "articles": [
         {
@@ -875,8 +883,8 @@
       "avg_relevance": 0.9,
       "key_entities": [
         "Arafura Rare Earths",
-        "China",
-        "European Union"
+        "European Union",
+        "China"
       ],
       "articles": [
         {
@@ -899,9 +907,9 @@
       "latest_date": "2026-01-08T02:19:17Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "China",
         "Lynas Rare Earths Ltd.",
-        "Japan"
+        "Japan",
+        "China"
       ],
       "articles": [
         {
@@ -932,8 +940,8 @@
       "latest_date": "2026-01-08T03:05:33Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "UN",
-        "European Commission"
+        "European Commission",
+        "UN"
       ],
       "articles": [
         {
@@ -979,8 +987,8 @@
       "latest_date": "2026-01-08T07:14:07Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Vara Research",
-        "Shell"
+        "Shell",
+        "Vara Research"
       ],
       "articles": [
         {
@@ -1060,9 +1068,9 @@
       "latest_date": "2026-01-09T08:37:36Z",
       "avg_relevance": 0.95,
       "key_entities": [
-        "Rheinmetall",
+        "PSM GmbH",
         "Bundeswehr",
-        "PSM GmbH"
+        "Rheinmetall"
       ],
       "articles": [
         {
@@ -1129,6 +1137,14 @@
         "WpHG"
       ],
       "articles": [
+        {
+          "id": 10539,
+          "title": "edding Aktiengesellschaft / DE0005647937",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/vorabbekanntmachung-finanzberichte/edding-aktiengesellschaft-de0005647937/68483615",
+          "date": "2026-01-13T14:37:49Z",
+          "summary": "edding announces preliminary financial report publication, adhering to German securities regulations."
+        },
         {
           "id": 1084,
           "title": "Henkel AG & Co. KGaA / DE0006048432",
@@ -1229,9 +1245,9 @@
       "latest_date": "2026-01-09T14:17:15Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "RWE",
+        "German Government",
         "BMWK",
-        "German Government"
+        "RWE"
       ],
       "articles": [
         {
@@ -1406,10 +1422,10 @@
       "latest_date": "2026-01-09T20:32:53Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Dynex Capital",
         "BTIG",
+        "State-Sponsored Enterprises",
         "Federal Government",
-        "State-Sponsored Enterprises"
+        "Dynex Capital"
       ],
       "articles": [
         {
@@ -1432,9 +1448,9 @@
       "latest_date": "2026-01-10T09:29:59Z",
       "avg_relevance": 0.9,
       "key_entities": [
+        "Japan",
         "China",
-        "Lynas Rare Earths",
-        "Japan"
+        "Lynas Rare Earths"
       ],
       "articles": [
         {
@@ -1465,9 +1481,9 @@
       "latest_date": "2026-01-10T11:00:56Z",
       "avg_relevance": 0.9,
       "key_entities": [
-        "Uniper",
+        "German Government",
         "Bundesnetzagentur",
-        "German Government"
+        "Uniper"
       ],
       "articles": [
         {
@@ -1494,6 +1510,14 @@
         "German Government"
       ],
       "articles": [
+        {
+          "id": 10667,
+          "title": "Best Buy Co. Inc. Stock: Quiet Strength Or Value Trap In A Cooling Electronics Cycle?",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/best-buy-co-inc-stock-quiet-strength-or-value-trap-in-a-cooling/68482063",
+          "date": "2026-01-13T04:04:11Z",
+          "summary": "IREN shifts focus to providing power for AI industry, potentially influenced by German energy policy regarding industrial power demand."
+        },
         {
           "id": 9905,
           "title": "NextEra Energy Stock Gains Momentum from Market and Regulatory Tailwinds",
@@ -1525,6 +1549,53 @@
           "url": "https://www.pv-magazine.com/2026/01/12/germany-adds-6-57-gwh-of-battery-storage-in-2025-total-hits-24-gwh/",
           "date": "2026-01-12T08:20:42Z",
           "summary": "Germany added 6.57 GWh of battery storage in 2025, driven by industrial systems, potentially influenced by government subsidies and grid regulations."
+        }
+      ]
+    },
+    {
+      "id": "deleveraging-plan",
+      "label": "Deleveraging Plan",
+      "policy_type": "Other",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-12T21:21:30Z",
+      "avg_relevance": 0.9,
+      "key_entities": [
+        "ams OSRAM"
+      ],
+      "articles": [
+        {
+          "id": 10708,
+          "title": "ams-OSRAM AG / AT0000A3EPA4",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ad-hoc-mitteilungen/ams-osram-ag-at0000a3epa4/68481517",
+          "date": "2026-01-12T21:21:30Z",
+          "summary": "ams OSRAM is in advanced discussions to sell certain businesses as part of its deleveraging plan."
+        }
+      ]
+    },
+    {
+      "id": "critical-minerals-stockpile",
+      "label": "Critical Minerals Stockpile",
+      "policy_type": "Trade",
+      "article_count": 1,
+      "is_trending": false,
+      "is_new_policy": true,
+      "latest_date": "2026-01-12T22:23:59Z",
+      "avg_relevance": 0.9,
+      "key_entities": [
+        "Australian Government",
+        "Lynas Rare Earths"
+      ],
+      "articles": [
+        {
+          "id": 10678,
+          "title": "Lynas Shares Surge on Australian Government's Strategic Stockpile Initiative",
+          "source": "Ad Hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/ueberblick/lynas-shares-surge-on-australian-government-s-strategic-stockpile/68481601",
+          "date": "2026-01-12T22:23:59Z",
+          "summary": "The Australian government announced a A$1.2 billion program to stockpile critical minerals from domestic producers like Lynas Rare Earths."
         }
       ]
     }
